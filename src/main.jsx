@@ -6,10 +6,10 @@ import { I18nextProvider } from "react-i18next";
 import i18n from "/i18n.config";
 import './index.css';
 
-import Nav from './components/Nav';
-import Footer from './components/Footer';
-import AboutMe from './components/AboutMe';
-import Experience from './components/Experience';
+import Nav from './components/layout/Nav';
+import Footer from './components/layout/Footer';
+import AboutMe from './routes/AboutMe';
+import Experience from './routes/Experience';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

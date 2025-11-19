@@ -1,9 +1,9 @@
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { I18nextProvider } from 'react-i18next';
+import { createRoot } from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router";
+import { I18nextProvider } from "react-i18next";
 
-import i18n from '../i18n.config';
+import i18n from "/i18n.config";
 import './index.css';
 
 import Nav from './components/Nav';
@@ -19,6 +19,7 @@ createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
       </BrowserRouter>

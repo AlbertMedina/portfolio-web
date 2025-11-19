@@ -1,0 +1,65 @@
+{
+    "ca": {
+        "translation": {
+            "nav": {
+                "aboutMe": "Sobre mi",
+                "experience": "Experiència"
+            },
+            "aboutMe": {
+                "title": "Sobre mi",
+                "description": "Desenvolupador Backend | Competent en Frontend | Programador de Videojocs",
+                "skills": "Habilitats"
+            },
+            "experience": {
+                "title": "Experiència",
+                "education": "Formació",
+                "projects": "Projectes"
+            },
+            "footer": {
+                "rights": "Tots els drets reservats"
+            }
+        }
+    },
+    "es": {
+        "translation": {
+            "nav": {
+                "aboutMe": "Sobre mí",
+                "experience": "Experiencia"
+            },
+            "aboutMe": {
+                "title": "Sobre mí",
+                "description": "Desarrollador Backend | Competente en Frontend | Programador de Videojuegos",
+                "skills": "Habilidades"
+            },
+            "experience": {
+                "title": "Experiencia",
+                "education": "Formación",
+                "projects": "Proyectos"
+            },
+            "footer": {
+                "rights": "Todos los derechos reservados"
+            }
+        }
+    },
+    "en": {
+        "translation": {
+            "nav": {
+                "aboutMe": "About me",
+                "experience": "Experience"
+            },
+            "aboutMe": {
+                "title": "About me",
+                "description": "Backend Developer | Proficient in Frontend | Game Programmer",
+                "skills": "Skills"
+            },
+            "experience": {
+                "title": "Experience",
+                "education": "Education",
+                "projects": "Projects"
+            },
+            "footer": {
+                "rights": "All rights reserved"
+            }
+        }
+    }
+}

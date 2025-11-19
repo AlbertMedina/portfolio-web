@@ -1,15 +1,16 @@
-import { StrictMode } from 'react';
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 import { I18nextProvider } from "react-i18next";
 
 import i18n from "/i18n.config";
-import './index.css';
+import "./index.css";
 
-import Nav from './components/layout/Nav';
-import Footer from './components/layout/Footer';
-import AboutMe from './routes/AboutMe';
-import Experience from './routes/Experience';
+import Nav from "./components/layout/Nav";
+import Footer from "./components/layout/Footer";
+import AboutMe from "./routes/AboutMe";
+import Experience from "./routes/Experience";
+import Projects from "./routes/Projects";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

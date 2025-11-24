@@ -2,8 +2,9 @@
     "ca": {
         "translation": {
             "nav": {
-                "aboutMe": "Sobre mi",
-                "experience": "Experiència"
+                "home": "Inici",
+                "about": "Sobre mi",
+                "projects": "Projectes"
             },
             "aboutMe": {
                 "title": "Sobre mi",
@@ -15,6 +16,9 @@
                 "education": "Formació",
                 "projects": "Projectes"
             },
+            "projects": {
+                "title": "Projectes"
+            },
             "footer": {
                 "rights": "Tots els drets reservats"
             }
@@ -23,8 +27,9 @@
     "es": {
         "translation": {
             "nav": {
-                "aboutMe": "Sobre mí",
-                "experience": "Experiencia"
+                "home": "Inicio",
+                "about": "Sobre mí",
+                "projects": "Proyectos"
             },
             "aboutMe": {
                 "title": "Sobre mí",
@@ -36,6 +41,9 @@
                 "education": "Formación",
                 "projects": "Proyectos"
             },
+            "projects": {
+                "title": "Proyectos"
+            },
             "footer": {
                 "rights": "Todos los derechos reservados"
             }
@@ -44,11 +52,12 @@
     "en": {
         "translation": {
             "nav": {
-                "aboutMe": "About me",
-                "experience": "Experience"
+                "home": "Home",
+                "about": "About",
+                "projects": "Projects"
             },
             "aboutMe": {
-                "title": "About me",
+                "title": "About",
                 "description": "Backend Developer | Proficient in Frontend | Game Programmer",
                 "skills": "Skills"
             },
@@ -56,6 +65,9 @@
                 "title": "Experience",
                 "education": "Education",
                 "projects": "Projects"
+            },
+            "projects": {
+                "title": "Projects"
             },
             "footer": {
                 "rights": "All rights reserved"

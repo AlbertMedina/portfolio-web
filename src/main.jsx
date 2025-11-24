@@ -8,8 +8,8 @@ import "./index.css";
 
 import Nav from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
-import AboutMe from "./routes/AboutMe";
-import Experience from "./routes/Experience";
+import Home from "./routes/Home";
+import About from "./routes/About";
 import Projects from "./routes/Projects";
 
 createRoot(document.getElementById('root')).render(
@@ -18,8 +18,8 @@ createRoot(document.getElementById('root')).render(
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/experience" element={<Experience />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer />

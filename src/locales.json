@@ -6,9 +6,10 @@
                 "about": "Sobre mi",
                 "projects": "Projectes"
             },
-            "aboutMe": {
+            "about": {
                 "title": "Sobre mi",
-                "description": "Desenvolupador Backend | Competent en Frontend | Programador de Videojocs",
+                "header": "Desenvolupador Backend | Competent en Frontend | Programador de Videojocs",
+                "text": "",
                 "skills": "Habilitats"
             },
             "experience": {
@@ -31,9 +32,10 @@
                 "about": "Sobre mí",
                 "projects": "Proyectos"
             },
-            "aboutMe": {
+            "about": {
                 "title": "Sobre mí",
-                "description": "Desarrollador Backend | Competente en Frontend | Programador de Videojuegos",
+                "header": "Desarrollador Backend | Competente en Frontend | Programador de Videojuegos",
+                "text": "",
                 "skills": "Habilidades"
             },
             "experience": {
@@ -56,9 +58,12 @@
                 "about": "About",
                 "projects": "Projects"
             },
-            "aboutMe": {
+            "about": {
                 "title": "About",
-                "description": "Backend Developer | Proficient in Frontend | Game Programmer",
+                "header": "Backend Developer | Frontend Skilled | Game Programmer",
+                "text-1": "Backend Developer with professional experience in programming and development.",
+                "text-2": "Graduated in Video Game Development (Tecnocampus – UPF), with solid knowledge in backend development and complementary frontend skills. I’m passionate about building efficient, scalable products that deliver a strong user experience.",
+                "text-3": "I have experience working in agile, multidisciplinary teams on technically demanding projects. I'm driven by continuous learning, problem-solving, and contributing value to both web development and interactive products.",
                 "skills": "Skills"
             },
             "experience": {

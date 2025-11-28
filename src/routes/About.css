@@ -1,0 +1,20 @@
+.about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.about .profile-picture {
+  border-radius: 300px;
+}
+
+.about .text-container {
+  max-width: 40%;
+  font-size: 20px;
+}

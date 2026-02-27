@@ -1,0 +1,27 @@
+.about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.picture {
+  border-radius: 30px;
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+}
+
+.text {
+  max-width: 50%;
+  font-size: x-large;
+  line-height: 1.6;
+}
+
+.text p {
+  margin-top: 0;
+}

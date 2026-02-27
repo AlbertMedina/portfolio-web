@@ -5,16 +5,32 @@ import styles from "./Nav.module.css";
 
 export default function Nav() {
   const { t } = useTranslation();
+
   return (
     <div className={styles.header}>
       <div className={styles.about}>
         <p className={styles.name}>Albert Medina Cucurull</p>
         <p>{t("about.header")}</p>
       </div>
-      <nav className={styles.nav}>
-        <NavLink to="/">{t("nav.home")}</NavLink>
-        <NavLink to="/about">{t("nav.about")}</NavLink>
-        <NavLink to="/projects">{t("nav.projects")}</NavLink>
+      <nav className={styles.navigation}>
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? styles.active : undefined)}
+        >
+          {t("nav.home")}
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? styles.active : undefined)}
+        >
+          {t("nav.about")}
+        </NavLink>
+        <NavLink
+          to="/projects"
+          className={({ isActive }) => (isActive ? styles.active : undefined)}
+        >
+          {t("nav.projects")}
+        </NavLink>
       </nav>
     </div>
   );

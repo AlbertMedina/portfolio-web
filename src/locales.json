@@ -9,8 +9,21 @@
             "about": {
                 "title": "Sobre mi",
                 "header": "Desenvolupador Backend | Competent en Frontend | Programador de Videojocs",
-                "text": "",
-                "skills": "Habilitats"
+                "text-1": "Desenvolupador Backend amb experiència professional en programació i desenvolupament.",
+                "text-2": "Graduat en Desenvolupament de Videojocs (Tecnocampus – UPF), amb coneixements sòlids en desenvolupament backend i habilitats complementàries en frontend. Apassionat per crear productes eficients i escalables que ofereixin una experiència d’usuari òptima.",
+                "text-3": "Compto amb experiència treballant en equips àgils i multidisciplinaris en projectes tècnicament exigents. Em motiva l’aprenentatge continu, la resolució de problemes i aportar valor tant al desenvolupament software com als productes interactius.",
+                "technological-stack": "Stack tecnològic",
+                "programming-languages": "Llenguatges de Programació",
+                "backend": "Backend",
+                "testing": "Testatge",
+                "frontend": "Frontend ",
+                "databases": "Bases de Dades",
+                "design-principles": "Principis de Disseny",
+                "architecture": "Arquitectura",
+                "agile-methodologies": "Metodologies Agile",
+                "version-control": "Control de versions",
+                "devops": "DevOps",
+                "game-development": "Desenvolupament de Videojocs"
             },
             "experience": {
                 "title": "Experiència",
@@ -19,9 +32,6 @@
             },
             "projects": {
                 "title": "Projectes"
-            },
-            "footer": {
-                "rights": "Tots els drets reservats"
             }
         }
     },
@@ -35,8 +45,21 @@
             "about": {
                 "title": "Sobre mí",
                 "header": "Desarrollador Backend | Competente en Frontend | Programador de Videojuegos",
-                "text": "",
-                "skills": "Habilidades"
+                "text-1": "Desarrollador Backend con experiencia profesional en programación y desarrollo.",
+                "text-2": "Graduado en Desarrollo de Videojuegos (Tecnocampus – UPF), con sólidos conocimientos en desarrollo backend y habilidades complementarias en frontend. Apasionado por crear productos eficientes y escalables que brinden una excelente experiencia de usuario.",
+                "text-3": "Cuento con experiencia trabajando en equipos ágiles y multidisciplinarios en proyectos técnicamente exigentes. Me motiva el aprendizaje continuo, la resolución de problemas y aportar valor tanto al desarrollo de software como a los productos interactivos.",
+                "technological-stack": "Stack tecnológico",
+                "programming-languages": "Lenguajes de Programación",
+                "backend": "Backend",
+                "testing": "Testeo",
+                "frontend": "Frontend ",
+                "databases": "Bases de Datos",
+                "design-principles": "Principios de Diseño",
+                "architecture": "Arquitectura",
+                "agile-methodologies": "Metodologías Agile",
+                "version-control": "Control de versiones",
+                "devops": "DevOps",
+                "game-development": "Desarrollo de Videojuegos"
             },
             "experience": {
                 "title": "Experiencia",
@@ -45,9 +68,6 @@
             },
             "projects": {
                 "title": "Proyectos"
-            },
-            "footer": {
-                "rights": "Todos los derechos reservados"
             }
         }
     },
@@ -63,8 +83,20 @@
                 "header": "Backend Developer | Frontend Skilled | Game Programmer",
                 "text-1": "Backend Developer with professional experience in programming and development.",
                 "text-2": "Graduated in Video Game Development (Tecnocampus – UPF), with solid knowledge in backend development and complementary frontend skills. I’m passionate about building efficient, scalable products that deliver a strong user experience.",
-                "text-3": "I have experience working in agile, multidisciplinary teams on technically demanding projects. I'm driven by continuous learning, problem-solving, and contributing value to both web development and interactive products.",
-                "skills": "Skills"
+                "text-3": "I have experience working in agile, multidisciplinary teams on technically demanding projects. I'm driven by continuous learning, problem-solving, and contributing value to both software development and interactive products.",
+                "technological-stack": "Technological stack",
+                "programming-languages": "Programming Languages",
+                "backend": "Backend",
+                "testing": "Testing",
+                "frontend": "Frontend ",
+                "databases": "Databases",
+                "design-principles": "Design Principles",
+                "architecture": "Architecture",
+                "agile-methodologies": "Agile Methodologies",
+                "version-control": "Version Control",
+                "devops": "DevOps",
+                "game-development": "Game Development"
+
             },
             "experience": {
                 "title": "Experience",
@@ -73,9 +105,6 @@
             },
             "projects": {
                 "title": "Projects"
-            },
-            "footer": {
-                "rights": "All rights reserved"
             }
         }
     }

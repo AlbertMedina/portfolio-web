@@ -4,34 +4,72 @@
             "nav": {
                 "home": "Inici",
                 "about": "Sobre mi",
-                "projects": "Projectes"
+                "projects": "Projectes",
+                "resume": "Currículum"
             },
             "about": {
                 "title": "Sobre mi",
                 "header": "Desenvolupador Backend | Competent en Frontend | Programador de Videojocs",
                 "text-1": "Desenvolupador Backend amb experiència professional en programació i desenvolupament.",
                 "text-2": "Graduat en Desenvolupament de Videojocs (Tecnocampus – UPF), amb coneixements sòlids en desenvolupament backend i habilitats complementàries en frontend. Apassionat per crear productes eficients i escalables que ofereixin una experiència d’usuari òptima.",
-                "text-3": "Compto amb experiència treballant en equips àgils i multidisciplinaris en projectes tècnicament exigents. Em motiva l’aprenentatge continu, la resolució de problemes i aportar valor tant al desenvolupament software com als productes interactius.",
-                "technological-stack": "Stack tecnològic",
-                "programming-languages": "Llenguatges de Programació",
-                "backend": "Backend",
-                "testing": "Testatge",
-                "frontend": "Frontend ",
-                "databases": "Bases de Dades",
-                "design-principles": "Principis de Disseny",
-                "architecture": "Arquitectura",
-                "agile-methodologies": "Metodologies Agile",
-                "version-control": "Control de versions",
-                "devops": "DevOps",
-                "game-development": "Desenvolupament de Videojocs"
-            },
-            "experience": {
-                "title": "Experiència",
-                "education": "Formació",
-                "projects": "Projectes"
+                "text-3": "Compto amb experiència treballant en equips àgils i multidisciplinaris en projectes tècnicament exigents. Em motiva l’aprenentatge continu, la resolució de problemes i aportar valor tant al desenvolupament software com als productes interactius."
             },
             "projects": {
                 "title": "Projectes"
+            },
+            "resume": {
+                "title": "Currículum",
+                "experience": {
+                    "title": "Experiència",
+                    "experience-1": {
+                        "position": "Programador de Videojocs Junior | Nexxyo Labs / Maniac Panda Games",
+                        "years": "2022 - 2025",
+                        "text-1": "Participació en el desenvolupament de Racerloop, un joc free-to-play arcade de carreres de naus espacials per a PC.",
+                        "text-2": "Contribució en implementació de gameplay, mecàniques de joc, sistemes de joc, UI, àudio, VFX, tools i bug-fixing.",
+                        "text-3": "Col·laboració en un equip multidisciplinari utilitzant motodologies Agile / Scrum.",
+                        "text-4": "Tecnologies: C#, Unity, Git, GitHub, Jira, Confluence."
+                    }
+                },
+                "education": {
+                    "title": "Educació",
+                    "education-1": {
+                        "title": "Grau Universitari en Desenvolupament de Videojocs | Tecnocampus (UPF)",
+                        "years": "2017 - 2021"
+                    },
+                    "education-2": {
+                        "title": "Desenvolupament Backend | IT Academy (Barcelona Activa - UPC)",
+                        "years": "2025 - 2026"
+                    },
+                    "education-3": {
+                        "title": "Desenvolupament Frontend | Tecnocampus (UPF)",
+                        "years": "2025"
+                    }
+                },
+                "technological-stack": {
+                    "title": "Stack tecnològic",
+                    "programming-languages": "Llenguatges de Programació",
+                    "backend": "Backend",
+                    "testing": "Testatge",
+                    "frontend": "Frontend",
+                    "databases": "Bases de Dades",
+                    "design-principles": "Principis de Disseny",
+                    "architecture": "Arquitectura",
+                    "agile-methodologies": "Metodologies Agile",
+                    "version-control": "Control de versions",
+                    "devops": "DevOps",
+                    "game-development": "Desenvolupament de Videojocs"
+                },
+                "soft-skills": {
+                    "title": "Soft Skills",
+                    "collaboration": "Col·laboració i treball en equip",
+                    "communication": "Comunicació efectiva",
+                    "problem-solving": "Resolució de problemes",
+                    "analytical-thinking": "Pensament analític",
+                    "detail": "Atenció al detall",
+                    "adaptability": "Adaptabilitat",
+                    "responsibility": "Sentit de la responsabilitat",
+                    "learning": "Mentalitat d’aprenentatge continu"
+                }
             }
         }
     },
@@ -40,34 +78,72 @@
             "nav": {
                 "home": "Inicio",
                 "about": "Sobre mí",
-                "projects": "Proyectos"
+                "projects": "Proyectos",
+                "resume": "Currículum"
             },
             "about": {
                 "title": "Sobre mí",
                 "header": "Desarrollador Backend | Competente en Frontend | Programador de Videojuegos",
                 "text-1": "Desarrollador Backend con experiencia profesional en programación y desarrollo.",
                 "text-2": "Graduado en Desarrollo de Videojuegos (Tecnocampus – UPF), con sólidos conocimientos en desarrollo backend y habilidades complementarias en frontend. Apasionado por crear productos eficientes y escalables que brinden una excelente experiencia de usuario.",
-                "text-3": "Cuento con experiencia trabajando en equipos ágiles y multidisciplinarios en proyectos técnicamente exigentes. Me motiva el aprendizaje continuo, la resolución de problemas y aportar valor tanto al desarrollo de software como a los productos interactivos.",
-                "technological-stack": "Stack tecnológico",
-                "programming-languages": "Lenguajes de Programación",
-                "backend": "Backend",
-                "testing": "Testeo",
-                "frontend": "Frontend ",
-                "databases": "Bases de Datos",
-                "design-principles": "Principios de Diseño",
-                "architecture": "Arquitectura",
-                "agile-methodologies": "Metodologías Agile",
-                "version-control": "Control de versiones",
-                "devops": "DevOps",
-                "game-development": "Desarrollo de Videojuegos"
-            },
-            "experience": {
-                "title": "Experiencia",
-                "education": "Formación",
-                "projects": "Proyectos"
+                "text-3": "Cuento con experiencia trabajando en equipos ágiles y multidisciplinarios en proyectos técnicamente exigentes. Me motiva el aprendizaje continuo, la resolución de problemas y aportar valor tanto al desarrollo de software como a los productos interactivos."
             },
             "projects": {
                 "title": "Proyectos"
+            },
+            "resume": {
+                "title": "Currículum",
+                "experience": {
+                    "title": "Experiencia",
+                    "experience-1": {
+                        "position": "Programador de Videojuegos Junior | Nexxyo Labs / Maniac Panda Games",
+                        "years": "2022 - 2025",
+                        "text-1": "Participación en el desarrollo de Racerloop, un juego free-to-play arcade de carreras de naves espaciales para PC.",
+                        "text-2": "Contribución en implementación de gameplay, mecànicas de juego, sistemas de juego, UI, audio, VFX, tools i bug-fixing.",
+                        "text-3": "Colaboración en un equipo multidisciplinar utilitzando motodologías Agile / Scrum.",
+                        "text-4": "Tecnologías: C#, Unity, Git, GitHub, Jira, Confluence."
+                    }
+                },
+                "education": {
+                    "title": "Educación",
+                    "education-1": {
+                        "title": "Grado Universitario en Desarrollo de Videojuegos | Tecnocampus (UPF)",
+                        "years": "2017 - 2021"
+                    },
+                    "education-2": {
+                        "title": "Desarrollo Backend | IT Academy (Barcelona Activa - UPC)",
+                        "years": "2025 - 2026"
+                    },
+                    "education-3": {
+                        "title": "Desarrollo Frontend | Tecnocampus (UPF)",
+                        "years": "2025"
+                    }
+                },
+                "technological-stack": {
+                    "title": "Stack tecnológico",
+                    "programming-languages": "Lenguajes de Programación",
+                    "backend": "Backend",
+                    "testing": "Testeo",
+                    "frontend": "Frontend",
+                    "databases": "Bases de Datos",
+                    "design-principles": "Principios de Diseño",
+                    "architecture": "Arquitectura",
+                    "agile-methodologies": "Metodologías Agile",
+                    "version-control": "Control de versiones",
+                    "devops": "DevOps",
+                    "game-development": "Desarrollo de Videojuegos"
+                },
+                "soft-skills": {
+                    "title": "Soft Skills",
+                    "collaboration": "Colaboración y trabajo en equipo",
+                    "communication": "Comunicación efectiva",
+                    "problem-solving": "Resolución de problemas",
+                    "analytical-thinking": "Pensamiento analítico",
+                    "detail": "Atención al detalle",
+                    "adaptability": "Adaptabilidad",
+                    "responsibility": "Sentido de la responsabilidad",
+                    "learning": "Mentalidad de aprendizaje continuo"
+                }
             }
         }
     },
@@ -76,35 +152,72 @@
             "nav": {
                 "home": "Home",
                 "about": "About",
-                "projects": "Projects"
+                "projects": "Projects",
+                "resume": "Resume"
             },
             "about": {
                 "title": "About",
                 "header": "Backend Developer | Frontend Skilled | Game Programmer",
                 "text-1": "Backend Developer with professional experience in programming and development.",
                 "text-2": "Graduated in Video Game Development (Tecnocampus – UPF), with solid knowledge in backend development and complementary frontend skills. I’m passionate about building efficient, scalable products that deliver a strong user experience.",
-                "text-3": "I have experience working in agile, multidisciplinary teams on technically demanding projects. I'm driven by continuous learning, problem-solving, and contributing value to both software development and interactive products.",
-                "technological-stack": "Technological stack",
-                "programming-languages": "Programming Languages",
-                "backend": "Backend",
-                "testing": "Testing",
-                "frontend": "Frontend ",
-                "databases": "Databases",
-                "design-principles": "Design Principles",
-                "architecture": "Architecture",
-                "agile-methodologies": "Agile Methodologies",
-                "version-control": "Version Control",
-                "devops": "DevOps",
-                "game-development": "Game Development"
-
-            },
-            "experience": {
-                "title": "Experience",
-                "education": "Education",
-                "projects": "Projects"
+                "text-3": "I have experience working in agile, multidisciplinary teams on technically demanding projects. I'm driven by continuous learning, problem-solving, and contributing value to both software development and interactive products."
             },
             "projects": {
                 "title": "Projects"
+            },
+            "resume": {
+                "title": "Resume",
+                "experience": {
+                    "title": "Experience",
+                    "experience-1": {
+                        "position": "Junior Game Programmer | Nexxyo Labs / Maniac Panda Games",
+                        "years": "2022 - 2025",
+                        "text-1": "Worked on Racerloop, a free-to-play arcade ship-racing game for PC.",
+                        "text-2": "Contributed to gameplay features, game mechanics, game systems, UI, audio, VFX, tools, and bug fixing.",
+                        "text-3": "Collaborated within a multidisciplinary team using Agile/Scrum methodologies.",
+                        "text-4": "Technologies: C#, Unity, Git, GitHub, Jira, Confluence."
+                    }
+                },
+                "education": {
+                    "title": "Education",
+                    "education-1": {
+                        "title": "Bachelor’s Degree in Video Game Development | Tecnocampus (UPF)",
+                        "years": "2017 - 2021"
+                    },
+                    "education-2": {
+                        "title": "Backend Development | IT Academy (Barcelona Activa - UPC)",
+                        "years": "2025 - 2026"
+                    },
+                    "education-3": {
+                        "title": "Frontend Development | Tecnocampus (UPF)",
+                        "years": "2025"
+                    }
+                },
+                "technological-stack": {
+                    "title": "Technological Stack",
+                    "programming-languages": "Programming Languages",
+                    "backend": "Backend",
+                    "testing": "Testing",
+                    "frontend": "Frontend",
+                    "databases": "Databases",
+                    "design-principles": "Design Principles",
+                    "architecture": "Architecture",
+                    "agile-methodologies": "Agile Methodologies",
+                    "version-control": "Version Control",
+                    "devops": "DevOps",
+                    "game-development": "Game Development"
+                },
+                "soft-skills": {
+                    "title": "Soft Skills",
+                    "collaboration": "Strong collaboration and teamwork",
+                    "communication": "Effective communication",
+                    "problem-solving": "Problem-solving",
+                    "analytical-thinking": "Analytical thinking",
+                    "detail": "Attention to detail",
+                    "adaptability": "Adaptability",
+                    "responsibility": "Sense of responsibility",
+                    "learning": "Learning mindset"
+                }
             }
         }
     }

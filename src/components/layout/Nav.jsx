@@ -31,6 +31,12 @@ export default function Nav() {
         >
           {t("nav.projects")}
         </NavLink>
+        <NavLink
+          to="/resume"
+          className={({ isActive }) => (isActive ? styles.active : undefined)}
+        >
+          {t("nav.resume")}
+        </NavLink>
       </nav>
     </div>
   );

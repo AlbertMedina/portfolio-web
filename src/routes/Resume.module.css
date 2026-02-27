@@ -1,0 +1,35 @@
+.resume {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 80%;
+  font-size: x-large;
+  line-height: 1.6;
+}
+
+.content p {
+  margin: 0;
+}
+
+.content ul {
+  margin: 0;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.skills {
+  display: flex;
+  gap: 150px;
+}

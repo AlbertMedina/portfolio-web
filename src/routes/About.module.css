@@ -1,9 +1,14 @@
 .about {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
+  height: calc(100vh - 240px);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
   display: flex;
   justify-content: center;
   gap: 60px;

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import picture from "../assets/profile-picture.jpeg";
+import picture from "../assets/images/profile/profile-picture.jpeg";
 import "./About.css";
 
 export default function About() {

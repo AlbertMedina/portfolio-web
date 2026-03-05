@@ -4,13 +4,15 @@
   padding-bottom: 120px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  max-width: 80%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 150px;
+  max-width: 70%;
   font-size: x-large;
   line-height: 1.6;
 }
@@ -27,9 +29,4 @@
   font-size: xx-large;
   font-weight: bold;
   text-transform: uppercase;
-}
-
-.skills {
-  display: flex;
-  gap: 150px;
 }

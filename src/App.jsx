@@ -5,8 +5,8 @@ import i18n from "/i18n.config";
 
 import "./App.css";
 
-import Nav from "./components/layout/Nav";
-import Footer from "./components/layout/Footer";
+import Nav from "./components/core/Nav";
+import Footer from "./components/core/Footer";
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Projects from "./routes/Projects";

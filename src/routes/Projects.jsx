@@ -18,9 +18,14 @@ export default function Projects() {
       <div className={styles.content}>
         <ProjectButton
           image={racerloop}
-          onClick={() => navigate("/projects")}
+          onClick={() => navigate("/projects/racerloop")}
         />
-        <ProjectButton image={eddy} onClick={() => navigate("/projects")} />
+        <ProjectButton
+          image={eddy}
+          onClick={() =>
+            navigate("/projects/the-frightening-nightmare-of-little-eddy")
+          }
+        />
         <ProjectButton image={minimax} onClick={() => navigate("/projects")} />
         <ProjectButton image={fighters} onClick={() => navigate("/projects")} />
         <ProjectButton image={temple} onClick={() => navigate("/projects")} />

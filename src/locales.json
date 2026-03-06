@@ -15,7 +15,37 @@
                 "text-3": "Compto amb experiència treballant en equips àgils i multidisciplinaris en projectes tècnicament exigents. Em motiva l’aprenentatge continu, la resolució de problemes i aportar valor tant al desenvolupament software com als productes interactius."
             },
             "projects": {
-                "title": "Projectes"
+                "title": "Projectes",
+                "racerloop": {
+                    "title": "Racerloop",
+                    "years": "2022 - 2025",
+                    "text-1": ""
+                },
+                "eddy": {
+                    "title": "The Frightening Nightmare of Little Eddy",
+                    "years": "2020",
+                    "text-1": ""
+                },
+                "minimax": {
+                    "title": "Adaptive Difficulty in Board Games",
+                    "years": "2021",
+                    "text-1": ""
+                },
+                "fighters": {
+                    "title": "Pit Fighters",
+                    "years": "2020",
+                    "text-1": ""
+                },
+                "molai": {
+                    "title": "Molai",
+                    "years": "2020",
+                    "text-1": ""
+                },
+                "temple": {
+                    "title": "The Temple",
+                    "years": "2019",
+                    "text-1": ""
+                }
             },
             "resume": {
                 "title": "Currículum",
@@ -89,7 +119,37 @@
                 "text-3": "Cuento con experiencia trabajando en equipos ágiles y multidisciplinarios en proyectos técnicamente exigentes. Me motiva el aprendizaje continuo, la resolución de problemas y aportar valor tanto al desarrollo de software como a los productos interactivos."
             },
             "projects": {
-                "title": "Proyectos"
+                "title": "Proyectos",
+                "racerloop": {
+                    "title": "Racerloop",
+                    "years": "2022 - 2025",
+                    "text-1": ""
+                },
+                "eddy": {
+                    "title": "The Frightening Nightmare of Little Eddy",
+                    "years": "2020",
+                    "text-1": ""
+                },
+                "minimax": {
+                    "title": "Adaptive Difficulty in Board Games",
+                    "years": "2021",
+                    "text-1": ""
+                },
+                "fighters": {
+                    "title": "Pit Fighters",
+                    "years": "2020",
+                    "text-1": ""
+                },
+                "molai": {
+                    "title": "Molai",
+                    "years": "2020",
+                    "text-1": ""
+                },
+                "temple": {
+                    "title": "The Temple",
+                    "years": "2019",
+                    "text-1": ""
+                }
             },
             "resume": {
                 "title": "Currículum",
@@ -163,7 +223,39 @@
                 "text-3": "I have experience working in agile, multidisciplinary teams on technically demanding projects. I'm driven by continuous learning, problem-solving, and contributing value to both software development and interactive products."
             },
             "projects": {
-                "title": "Projects"
+                "title": "Projects",
+                "racerloop": {
+                    "title": "Racerloop",
+                    "years": "2022 - 2025",
+                    "text-1": "Racerloop is a free to play arcade ship racing game for PC. It is made with Unity.",
+                    "text-2": "As a junior programmer, I worked on several aspects of the game programming including gameplay, game mechanics, game systems, UI, sound, VFXs, tools, bugfixing, etc."
+
+                },
+                "eddy": {
+                    "title": "The Frightening Nightmare of Little Eddy",
+                    "years": "2020",
+                    "text-1": ""
+                },
+                "minimax": {
+                    "title": "Adaptive Difficulty in Board Games",
+                    "years": "2021",
+                    "text-1": ""
+                },
+                "fighters": {
+                    "title": "Pit Fighters",
+                    "years": "2020",
+                    "text-1": ""
+                },
+                "molai": {
+                    "title": "Molai",
+                    "years": "2020",
+                    "text-1": ""
+                },
+                "temple": {
+                    "title": "The Temple",
+                    "years": "2019",
+                    "text-1": ""
+                }
             },
             "resume": {
                 "title": "Resume",

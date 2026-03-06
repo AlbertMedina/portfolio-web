@@ -12,6 +12,9 @@ import About from "./routes/About";
 import Projects from "./routes/Projects";
 import Resume from "./routes/Resume";
 
+import Racerloop from "./routes/projects/Racerloop";
+import Eddy from "./routes/projects/Eddy";
+
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
@@ -22,6 +25,11 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/projects/racerloop" element={<Racerloop />} />
+          <Route
+            path="/projects/the-frightening-nightmare-of-little-eddy"
+            element={<Eddy />}
+          />
         </Routes>
         <Footer />
       </BrowserRouter>

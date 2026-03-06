@@ -1,0 +1,72 @@
+.project {
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.title img {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px 60px;
+}
+
+.info img {
+  width: 600px;
+  height: 300px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.text {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: x-large;
+  line-height: 1.6;
+}
+
+.text p {
+  margin: 0;
+}
+
+.video {
+  width: 800px;
+}
+
+.video iframe {
+  aspect-ratio: 16 / 9;
+  border-radius: 20px;
+}

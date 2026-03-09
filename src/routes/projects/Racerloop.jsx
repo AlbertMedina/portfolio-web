@@ -11,16 +11,23 @@ export default function Racerloop() {
     <section className={styles.project}>
       <div className={styles.content}>
         <div className={styles.title}>
-          <img src={logo} alt="Racerloop Logo" />
-          <h1>{t("projects.racerloop.title")}</h1>
+          <div className={styles.titleLeft}>
+            <img src={logo} alt="Racerloop Logo" />
+            <h1>{t("projects.racerloop.title")}</h1>
+          </div>
+
+          <div className={styles.buttons}>
+            <a
+              href="https://blinkgalaxy.com/es/carreras/racerloop"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Official Web Page
+            </a>
+          </div>
         </div>
         <div className={styles.info}>
-          <img
-            src={image}
-            alt={t("projects.racerloop.title")}
-            width={350}
-            className={styles.picture}
-          />
+          <img src={image} alt={t("projects.racerloop.title")} width={350} />
           <div className={styles.text}>
             <p>{t("projects.racerloop.text-1")}</p>
             <p>{t("projects.racerloop.text-2")}</p>

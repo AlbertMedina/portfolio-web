@@ -71,7 +71,7 @@
 
 .info img {
   width: 680px;
-  height: 330px;
+  height: 360px;
   border-radius: 30px;
   object-fit: cover;
 }
@@ -81,12 +81,13 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: x-large;
-  line-height: 1.6;
 }
 
 .text p {
   margin: 0;
+  text-align: justify;
+  font-size: x-large;
+  line-height: 1.6;
 }
 
 .video {

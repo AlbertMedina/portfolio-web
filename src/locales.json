@@ -241,7 +241,8 @@
                 "minimax": {
                     "title": "Adaptive Difficulty in Board Games",
                     "years": "2021",
-                    "text-1": ""
+                    "text-1": "Adaptive Difficulty in Board Games is the title of my Bachelor's Degree Final Project. It consists in the design of an AI algorithm based on Minimax that adapts its performance dynamically depending on the skills of its opponent in board games. The algorithm was implemented with the Checkers game using Unity to test and prove its performance.",
+                    "text-2": "The project was graded with a final mark of an excellent."
                 },
                 "fighters": {
                     "title": "Pit Fighters",
@@ -256,7 +257,9 @@
                 "temple": {
                     "title": "The Temple",
                     "years": "2019",
-                    "text-1": ""
+                    "text-1": "The Temple is a top-down shooter game inspired by Lovecraft's universe.",
+                    "text-2": "It was made with Unity by a team of 4 students as a university project.",
+                    "text-3": "I was the main programmer on the team, working on all the aspects related to game programming."
                 }
             },
             "resume": {

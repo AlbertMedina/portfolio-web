@@ -26,10 +26,24 @@ export default function Projects() {
             navigate("/projects/the-frightening-nightmare-of-little-eddy")
           }
         />
-        <ProjectButton image={minimax} onClick={() => navigate("/projects")} />
-        <ProjectButton image={fighters} onClick={() => navigate("/projects")} />
-        <ProjectButton image={temple} onClick={() => navigate("/projects")} />
-        <ProjectButton image={molai} onClick={() => navigate("/projects")} />
+        <ProjectButton
+          image={minimax}
+          onClick={() =>
+            navigate("/projects/adaptive-difficulty-in-board-games")
+          }
+        />
+        <ProjectButton
+          image={fighters}
+          onClick={() => navigate("/projects/pit-fighters")}
+        />
+        <ProjectButton
+          image={temple}
+          onClick={() => navigate("/projects/the-temple")}
+        />
+        <ProjectButton
+          image={molai}
+          onClick={() => navigate("/projects/molai")}
+        />
       </div>
     </section>
   );

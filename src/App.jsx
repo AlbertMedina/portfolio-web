@@ -14,6 +14,10 @@ import Resume from "./routes/Resume";
 
 import Racerloop from "./routes/projects/Racerloop";
 import Eddy from "./routes/projects/Eddy";
+import Minimax from "./routes/projects/Minimax";
+import PitFighters from "./routes/projects/PitFighters";
+import TheTemple from "./routes/projects/TheTemple";
+import Molai from "./routes/projects/Molai";
 
 function App() {
   return (
@@ -30,6 +34,13 @@ function App() {
             path="/projects/the-frightening-nightmare-of-little-eddy"
             element={<Eddy />}
           />
+          <Route
+            path="/projects/adaptive-difficulty-in-board-games"
+            element={<Minimax />}
+          />
+          <Route path="/projects/pit-fighters" element={<PitFighters />} />
+          <Route path="/projects/the-temple" element={<TheTemple />} />
+          <Route path="/projects/molai" element={<Molai />} />
         </Routes>
         <Footer />
       </BrowserRouter>

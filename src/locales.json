@@ -234,7 +234,9 @@
                 "eddy": {
                     "title": "The Frightening Nightmare of Little Eddy",
                     "years": "2020",
-                    "text-1": ""
+                    "text-1": "The Frightening Nightmare of Little Eddy is an adventure game for PC with puzzle and combat. It was made with Unity by a team of 6 students in 10 weeks as a university project.",
+                    "text-2": "The game won 4 out of 5 awards at the university video games festival, including the Technical Excellence award. It also was a finalist at the Fun&Serious Game Festival in the category of New Talents.",
+                    "text-3": "I was one of the two programmers in the team. I worked on different aspects related to game mechanics and systems. The AIs programming was also one of my responsibilities, as well as the implementation of the sound. I also was in charge of the implementation of different features and systems like the camera behaviour."
                 },
                 "minimax": {
                     "title": "Adaptive Difficulty in Board Games",

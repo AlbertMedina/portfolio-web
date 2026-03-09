@@ -70,14 +70,14 @@
 }
 
 .info img {
-  width: 600px;
-  height: 300px;
+  width: 680px;
+  height: 330px;
   border-radius: 30px;
   object-fit: cover;
 }
 
 .text {
-  max-width: 600px;
+  max-width: 670px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -91,7 +91,7 @@
 
 .video {
   width: 800px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .video iframe {

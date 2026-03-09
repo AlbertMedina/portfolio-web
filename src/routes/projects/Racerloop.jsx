@@ -15,7 +15,6 @@ export default function Racerloop() {
             <img src={logo} alt="Racerloop Logo" />
             <h1>{t("projects.racerloop.title")}</h1>
           </div>
-
           <div className={styles.buttons}>
             <a
               href="https://blinkgalaxy.com/es/carreras/racerloop"

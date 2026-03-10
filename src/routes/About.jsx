@@ -19,6 +19,8 @@ export default function About() {
           <p>{t("about.text-1")}</p>
           <p>{t("about.text-2")}</p>
           <p>{t("about.text-3")}</p>
+          <p>{t("about.text-4")}</p>
+          <p>{t("about.text-5")}</p>
         </div>
       </div>
     </section>

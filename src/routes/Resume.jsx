@@ -95,6 +95,7 @@ export default function Resume() {
             <li>{t("resume.soft-skills.analytical-thinking")}</li>
             <li>{t("resume.soft-skills.detail")}</li>
             <li>{t("resume.soft-skills.adaptability")}</li>
+            <li>{t("resume.soft-skills.pressure")}</li>
             <li>{t("resume.soft-skills.responsibility")}</li>
             <li>{t("resume.soft-skills.learning")}</li>
           </ul>

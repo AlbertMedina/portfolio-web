@@ -13,7 +13,10 @@ export default function Molai() {
         <div className={styles.title}>
           <div className={styles.titleLeft}>
             <img src={logo} alt="Molai Logo" />
-            <h1>{t("projects.molai.title")}</h1>
+            <div className={styles.titleText}>
+              <h1>{t("projects.molai.title")}</h1>
+              <h2>{t("projects.molai.years")}</h2>
+            </div>
           </div>
           <div className={styles.buttons}></div>
         </div>

@@ -14,7 +14,10 @@ export default function PitFighters() {
         <div className={styles.title}>
           <div className={styles.titleLeft}>
             <img src={logo} alt="Pit Fighters Logo" />
-            <h1>{t("projects.fighters.title")}</h1>
+            <div className={styles.titleText}>
+              <h1>{t("projects.fighters.title")}</h1>
+              <h2>{t("projects.fighters.years")}</h2>
+            </div>
           </div>
           <div className={styles.buttons}>
             <a

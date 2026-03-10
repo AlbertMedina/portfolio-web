@@ -13,7 +13,10 @@ export default function TheTemple() {
         <div className={styles.title}>
           <div className={styles.titleLeft}>
             <img src={logo} alt="Adaptive Difficulty In Board Games Logo" />
-            <h1>{t("projects.temple.title")}</h1>
+            <div className={styles.titleText}>
+              <h1>{t("projects.temple.title")}</h1>
+              <h2>{t("projects.temple.years")}</h2>
+            </div>
           </div>
           <div className={styles.buttons}>
             <a

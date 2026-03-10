@@ -13,7 +13,10 @@ export default function Racerloop() {
         <div className={styles.title}>
           <div className={styles.titleLeft}>
             <img src={logo} alt="Racerloop Logo" />
-            <h1>{t("projects.racerloop.title")}</h1>
+            <div className={styles.titleText}>
+              <h1>{t("projects.racerloop.title")}</h1>
+              <h2>{t("projects.racerloop.years")}</h2>
+            </div>
           </div>
           <div className={styles.buttons}>
             <a

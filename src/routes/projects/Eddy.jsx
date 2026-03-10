@@ -17,7 +17,10 @@ export default function Eddy() {
               src={logo}
               alt="The Frightening Nightmare Of Little Eddy Logo"
             />
-            <h1>{t("projects.eddy.title")}</h1>
+            <div className={styles.titleText}>
+              <h1>{t("projects.eddy.title")}</h1>
+              <h2>{t("projects.eddy.years")}</h2>
+            </div>
           </div>
           <div className={styles.buttons}>
             <a

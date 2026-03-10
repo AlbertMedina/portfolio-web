@@ -227,39 +227,41 @@
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
-                    "text-1": "Racerloop is a free to play arcade ship racing game for PC. It is made with Unity.",
-                    "text-2": "As a junior programmer, I worked on several aspects of the game programming including gameplay, game mechanics, game systems, UI, sound, VFXs, tools, bugfixing, etc."
+                    "text-1": "Racerloop is a free-to-play arcade spaceship racing game for PC developed in Unity. This was my first professional experience in the video game industry, working as a junior programmer in a multidisciplinary team.",
+                    "text-2": "I worked on multiple areas of the game including gameplay mechanics, systems, UI, sound, VFX, tools, and bug fixing. The project was developed using agile methodologies, collaborating closely with design, art, audio, and other departments throughout development."
 
                 },
                 "eddy": {
                     "title": "The Frightening Nightmare of Little Eddy",
                     "years": "2020",
-                    "text-1": "The Frightening Nightmare of Little Eddy is an adventure game for PC with puzzle and combat. It was made with Unity by a team of 6 students in 10 weeks as a university project.",
-                    "text-2": "The game won 4 out of 5 awards at the university video games festival, including the Technical Excellence award. It also was a finalist at the Fun&Serious Game Festival in the category of New Talents.",
-                    "text-3": "I was one of the two programmers in the team. I worked on different aspects related to game mechanics and systems. The AIs programming was also one of my responsibilities, as well as the implementation of the sound. I also was in charge of the implementation of different features and systems like the camera behaviour."
+                    "text-1": "The Frightening Nightmare of Little Eddy is a third-person adventure game for PC combining puzzles and combat, developed in Unity by a team of six students over ten weeks as a university project.",
+                    "text-2": "The game received 4 out of 5 awards at the university video game festival, including the Technical Excellence award, and was also a finalist at the Fun & Serious Game Festival in the New Talents category.",
+                    "text-3": "I was one of the two programmers on the team, working on gameplay mechanics, AI behaviour, and general game systems. I was also responsible for sound implementation and for developing several features such as camera behaviour and other core systems."
                 },
                 "minimax": {
                     "title": "Adaptive Difficulty in Board Games",
                     "years": "2021",
-                    "text-1": "Adaptive Difficulty in Board Games is the title of my Bachelor's Degree Final Project. It consists in the design of an AI algorithm based on Minimax that adapts its performance dynamically depending on the skills of its opponent in board games. The algorithm was implemented with the Checkers game using Unity to test and prove its performance.",
-                    "text-2": "The project was graded with a final mark of an excellent."
+                    "text-1": "Adaptive Difficulty in Board Games is the title of my Bachelor's Degree Final Project. The project focuses on the design and implementation of an AI algorithm based on Minimax that dynamically adapts its performance according to the opponent’s skill level, creating adaptive difficulty.",
+                    "text-2": "The algorithm was implemented and tested using a Checkers game prototype developed in Unity in order to evaluate its behaviour and effectiveness. The project received a final grade of Excellent (9.4/10)."
                 },
                 "fighters": {
                     "title": "Pit Fighters",
                     "years": "2020",
-                    "text-1": ""
+                    "text-1": "Pit Fighters is a fast-paced first-person action shooter developed during the GMTK Game Jam 2020, focused on intense deathmatch-style combat against AI opponents. The game features short, chaotic rounds where the rules change every match, forcing the player to constantly adapt their strategy in order to survive and win.",
+                    "text-2": "The game was developed in Unity by a team of five people in under 48 hours during the game jam."
                 },
                 "molai": {
                     "title": "Molai",
                     "years": "2020",
-                    "text-1": ""
+                    "text-1": "This project is a 2D puzzle-platformer created during the Global Game Jam 2020, based on the theme “Repair”. The gameplay focuses on fixing damaged elements of the environment to solve puzzles and progress. This mechanic also ties into the narrative, as repairing the world helps the protagonist recover lost memories and uncover the story.",
+                    "text-2": "The game was developed in Unity by a team of four people in under 48 hours during the Global Game Jam."
                 },
                 "temple": {
                     "title": "The Temple",
                     "years": "2019",
-                    "text-1": "The Temple is a top-down shooter game inspired by Lovecraft's universe.",
-                    "text-2": "It was made with Unity by a team of 4 students as a university project.",
-                    "text-3": "I was the main programmer on the team, working on all the aspects related to game programming."
+                    "text-1": "The Temple is a top-down shooter game inspired by Lovecraft's universe, developed in Unity by a team of four students as part of a university project.",
+                    "text-2": "I was the main programmer on the team, implementing the core gameplay systems and handling most of the game programming tasks.",
+                    "text-3": "My work included player controls, enemy behaviour, combat mechanics, and general gameplay logic."
                 }
             },
             "resume": {

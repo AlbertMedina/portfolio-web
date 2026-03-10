@@ -99,3 +99,10 @@
   aspect-ratio: 16 / 9;
   border-radius: 20px;
 }
+
+.picture {
+  width: 800px;
+  margin-top: 15px;
+  aspect-ratio: 16 / 9;
+  border-radius: 20px;
+}

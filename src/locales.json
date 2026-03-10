@@ -19,32 +19,40 @@
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
-                    "text-1": ""
+                    "text-1": "Racerloop és un joc de free-to-play arcade de carreres de naus espacials per a PC desenvolupat amb Unity. Aquesta va ser la meva primera experiència professional a la indústria dels videojocs, treballant com a programador junior en un equip multidisciplinari.",
+                    "text-2": "Vaig treballar en diverses àrees del joc, incloent-hi la implementació de mecàniques, sistemes, UI, so, VFX, tools i correcció de bugs. El projecte es va desenvolupar utilitzant metodologies àgils, col·laborant estretament amb disseny, art, àudio i altres departaments al llarg del desenvolupament."
                 },
                 "eddy": {
                     "title": "The Frightening Nightmare of Little Eddy",
                     "years": "2020",
-                    "text-1": ""
+                    "text-1": "The Frightening Nightmare of Little Eddy és un joc d’aventura en tercera persona per a PC que combina trencaclosques i combat, desenvolupat amb Unity per un equip de sis estudiants al llarg de deu setmanes com a projecte universitari.",
+                    "text-2": "El joc va obtenir 4 de 5 premis al festival universitari de videojocs, incloent-hi el premi a l’Excel·lència Tècnica, i també va ser finalista al Fun & Serious Game Festival a la categoria New Talents.",
+                    "text-3": "Vaig ser un dels dos programadors de l’equip, treballant en la implementació de gampleay i mecàniques, el comportament de la IA i els sistemes generals del joc. També vaig ser responsable de la implementació del so i del desenvolupament de diverses features com ara el comportament de la càmera i altres sistemes centrals."
                 },
                 "minimax": {
-                    "title": "Adaptive Difficulty in Board Games",
+                    "title": "Dificultat Adaptativa en Jocs de Taula a través de Minimax",
                     "years": "2021",
-                    "text-1": ""
+                    "text-1": "Dificultat Adaptativa en Jocs de Taula a través de Minimax és el títol del meu Treball de Fi de Grau. El projecte se centra en el disseny i implementació d’un algoritme d’IA basat en Minimax que s’adapta de manera dinàmica segons el nivell d’habilitat de l’oponent, creant una dificultat adaptativa.",
+                    "text-2": "L’algoritme es va implementar i provar utilitzant un prototip de joc del joc de les Dames desenvolupat amb Unity per avaluar-ne el comportament i l’eficàcia. El projecte va obtenir una nota final d’Excel·lent (9,4/10)."
                 },
                 "fighters": {
                     "title": "Pit Fighters",
                     "years": "2020",
-                    "text-1": ""
+                    "text-1": "Pit Fighters és un shooter d’acció en primera persona desenvolupat durant la GMTK Game Jam 2020, centrat en combats intensos tipus deathmatch contra oponents de IA. El joc presenta rondes curtes i caòtiques on les regles canvien a cada partida, obligant el jugador a adaptar constantment la seva estratègia per sobreviure i guanyar.",
+                    "text-2": "El joc es va desenvolupar amb Unity per un equip de cinc persones en menys de 48 hores durant la game jam."
                 },
                 "molai": {
                     "title": "Molai",
                     "years": "2020",
-                    "text-1": ""
+                    "text-1": "Molai és un joc de plataformes i trencaclosques 2D creat durant la Global Game Jam 2020, basat en el tema “Repair”. La jugabilitat es centra a reparar elements danyats de l’entorn per resoldre trencaclosques i avançar. Aquesta mecànica també està vinculada a la narrativa, ja que reparar el món ajuda a la protagonista a recuperar records perduts i descobrir la història.",
+                    "text-2": "El joc es va desenvolupar amb Unity per un equip de quatre persones en menys de 48 hores durant la Global Game Jam."
                 },
                 "temple": {
                     "title": "The Temple",
                     "years": "2019",
-                    "text-1": ""
+                    "text-1": "The Temple és un joc shooter top-down inspirat en l’univers de Lovecraft, desenvolupat amb Unity per un equip de quatre estudiants com a projecte universitari.",
+                    "text-2": "Vaig ser el principal programador de l’equip, implementant els sistemes centrals de jugabilitat i gestionant la majoria de tasques de programació del joc.",
+                    "text-3": "El meu treball incloïa els controls del jugador, el comportament dels enemics, les mecàniques de combat i la lògica general de jugabilitat."
                 }
             },
             "resume": {
@@ -123,32 +131,40 @@
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
-                    "text-1": ""
+                    "text-1": "Racerloop es un juego free-to-play arcade de carreras de naves espaciales para PC desarrollado con Unity. Esta fue mi primera experiencia profesional en la industria de los videojuegos, trabajando como programador junior en un equipo multidisciplinario.",
+                    "text-2": "Trabajé en múltiples áreas del juego, incluyendo la implementación de mecánicas, sistemas, UI, sonido, VFX, herramientas y corrección de bugs. El proyecto se desarrolló utilizando metodologías ágiles, colaborando estrechamente con diseño, arte, audio y otros departamentos durante todo el desarrollo."
                 },
                 "eddy": {
                     "title": "The Frightening Nightmare of Little Eddy",
                     "years": "2020",
-                    "text-1": ""
+                    "text-1": "The Frightening Nightmare of Little Eddy es un juego de aventura en tercera persona para PC que combina puzzles y combate, desarrollado con Unity por un equipo de seis estudiantes durante diez semanas como proyecto universitario.",
+                    "text-2": "El juego recibió 4 de 5 premios en el festival universitario de videojuegos, incluyendo el premio a la Excelencia Técnica, y también fue finalista en el Fun & Serious Game Festival en la categoría New Talents.",
+                    "text-3": "Fui uno de los dos programadores del equipo, trabajando en la implementación de gameplay y meánicas, el comportamiento de la IA y los sistemas generales del juego. También fui responsable de la implementación de sonido y del desarrollo de varias features como el comportamiento de la cámara y otros sistemas centrales."
                 },
                 "minimax": {
-                    "title": "Adaptive Difficulty in Board Games",
+                    "title": "Dificultad Adaptativa en Juegos de Mesa a través de Minimax",
                     "years": "2021",
-                    "text-1": ""
+                    "text-1": "Dificultad Adaptativa en Juegos de Mesa a través de Minimax es el título de mi Trabajo de Fin de Grado. El proyecto se centra en el diseño e implementación de un algoritmo de IA basado en Minimax que se adapta dinámicamente según el nivel de habilidad del oponente, creando una dificultad adaptativa.",
+                    "text-2": "El algoritmo se implementó y probó utilizando un prototipo del juego de las Damas desarrollado con Unity para evaluar su comportamiento y efectividad. El proyecto recibió una calificación final de Excelente (9,4/10)."
                 },
                 "fighters": {
                     "title": "Pit Fighters",
                     "years": "2020",
-                    "text-1": ""
+                    "text-1": "Pit Fighters es un shooter de acción en primera persona desarrollado durante la GMTK Game Jam 2020, centrado en combates intensos tipo deathmatch contra oponentes de IA. El juego presenta rondas cortas y caóticas donde las reglas cambian en cada partida, obligando al jugador a adaptar constantemente su estrategia para sobrevivir y ganar.",
+                    "text-2": "El juego fue desarrollado con Unity por un equipo de cinco personas en menos de 48 horas durante la game jam."
                 },
                 "molai": {
                     "title": "Molai",
                     "years": "2020",
-                    "text-1": ""
+                    "text-1": "Molai es un juego de plataformas y puzzles 2D creado durante la Global Game Jam 2020, basado en el tema “Repair”. La jugabilidad se centra en reparar elementos dañados del entorno para resolver puzzles y avanzar. Esta mecánica también se vincula a la narrativa, ya que reparar el mundo ayuda a la protagonista a recuperar recuerdos perdidos y descubrir la historia.",
+                    "text-2": "El juego se desarrolló con Unity por un equipo de cuatro personas en menos de 48 horas durante la Global Game Jam."
                 },
                 "temple": {
                     "title": "The Temple",
                     "years": "2019",
-                    "text-1": ""
+                    "text-1": "The Temple es un juego shooter top-down inspirado en el universo de Lovecraft, desarrollado con Unity por un equipo de cuatro estudiantes como proyecto universitario.",
+                    "text-2": "Fui el programador principal del equipo, implementando los sistemas centrales de jugabilidad y gestionando la mayoría de tareas de programación del juego.",
+                    "text-3": "Mi trabajo incluía los controles del jugador, el comportamiento de los enemigos, las mecánicas de combate y la lógica general de jugabilidad."
                 }
             },
             "resume": {

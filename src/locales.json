@@ -266,7 +266,7 @@
                     "text-4": "The game has accumulated thousands of downloads and views, as well as hundreds of reactions from players and viewers. It was also featured in the Super Rare Mixtape Vol. 4 by Super Rare Games."
                 },
                 "minimax": {
-                    "title": "Adaptive Difficulty in Board Games",
+                    "title": "Adaptive Difficulty in Board Games through Minimax",
                     "years": "2021",
                     "text-1": "Adaptive Difficulty in Board Games is the title of my Bachelor's Degree Final Project. The project focuses on the design and implementation of an AI algorithm based on Minimax that dynamically adapts its performance according to the opponent’s skill level, creating adaptive difficulty.",
                     "text-2": "The algorithm was implemented and tested using a Checkers game prototype developed in Unity in order to evaluate its behaviour and effectiveness. The project received a final grade of Excellent (9.4/10)."

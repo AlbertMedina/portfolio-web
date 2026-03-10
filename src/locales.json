@@ -102,14 +102,15 @@
                 },
                 "soft-skills": {
                     "title": "Soft Skills",
-                    "collaboration": "Col·laboració i treball en equip",
+                    "collaboration": "Col·laboració, treball en equip i empatia",
                     "communication": "Comunicació efectiva",
-                    "problem-solving": "Resolució de problemes",
+                    "problem-solving": "Resolució de problemes i presa de decisions ràpides",
                     "analytical-thinking": "Pensament analític",
                     "detail": "Atenció al detall",
-                    "adaptability": "Adaptabilitat",
-                    "responsibility": "Sentit de la responsabilitat",
-                    "learning": "Mentalitat d’aprenentatge continu"
+                    "adaptability": "Adaptabilitat i flexibilitat",
+                    "pressure": "Capacitat per treballar sota pressió",
+                    "responsibility": "Sentit de responsabilitat",
+                    "learning": "Mentalitat d'aprenentatge continu"
                 }
             }
         }
@@ -217,12 +218,13 @@
                 },
                 "soft-skills": {
                     "title": "Soft Skills",
-                    "collaboration": "Colaboración y trabajo en equipo",
+                    "collaboration": "Colaboración, trabajo en equipo y empatía",
                     "communication": "Comunicación efectiva",
-                    "problem-solving": "Resolución de problemas",
+                    "problem-solving": "Resolución de problemas y toma de decisiones rápidas",
                     "analytical-thinking": "Pensamiento analítico",
                     "detail": "Atención al detalle",
-                    "adaptability": "Adaptabilidad",
+                    "adaptability": "Adaptabilidad y flexibilidad",
+                    "pressure": "Capacidad para trabajar bajo presión",
                     "responsibility": "Sentido de la responsabilidad",
                     "learning": "Mentalidad de aprendizaje continuo"
                 }
@@ -333,14 +335,15 @@
                 },
                 "soft-skills": {
                     "title": "Soft Skills",
-                    "collaboration": "Strong collaboration and teamwork",
+                    "collaboration": "Collaboration, teamwork and empathy",
                     "communication": "Effective communication",
-                    "problem-solving": "Problem-solving",
+                    "problem-solving": "Problem-solving and quick decision-making",
                     "analytical-thinking": "Analytical thinking",
                     "detail": "Attention to detail",
-                    "adaptability": "Adaptability",
+                    "adaptability": "Adaptability and flexibility",
+                    "pressure": "Ability to work under pressure",
                     "responsibility": "Sense of responsibility",
-                    "learning": "Learning mindset"
+                    "learning": "Continuous learning mindset"
                 }
             }
         }

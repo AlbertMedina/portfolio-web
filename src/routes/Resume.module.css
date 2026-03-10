@@ -11,8 +11,9 @@
   margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px 150px;
-  max-width: 70%;
+  gap: 40px 120px;
+  max-width: 80%;
+  text-align: justify;
   font-size: x-large;
   line-height: 1.6;
 }

@@ -26,8 +26,9 @@
                     "title": "The Frightening Nightmare of Little Eddy",
                     "years": "2020",
                     "text-1": "The Frightening Nightmare of Little Eddy és un joc d’aventura en tercera persona per a PC que combina trencaclosques i combat, desenvolupat amb Unity per un equip de sis estudiants al llarg de deu setmanes com a projecte universitari.",
-                    "text-2": "El joc va obtenir 4 de 5 premis al festival universitari de videojocs, incloent-hi el premi a l’Excel·lència Tècnica, i també va ser finalista al Fun & Serious Game Festival a la categoria New Talents.",
-                    "text-3": "Vaig ser un dels dos programadors de l’equip, treballant en la implementació de gampleay i mecàniques, el comportament de la IA i els sistemes generals del joc. També vaig ser responsable de la implementació del so i del desenvolupament de diverses features com ara el comportament de la càmera i altres sistemes centrals."
+                    "text-2": "Vaig ser un dels dos programadors de l’equip, treballant en la implementació de gampleay i mecàniques, el comportament de la IA i els sistemes generals del joc. També vaig ser responsable de la implementació del so i del desenvolupament de diverses features com ara el comportament de la càmera i altres sistemes centrals.",
+                    "text-3": "El joc va obtenir 4 de 5 premis al festival universitari de videojocs, incloent-hi el premi a l’Excel·lència Tècnica, i també va ser finalista al Fun & Serious Game Festival a la categoria New Talents.",
+                    "text-4": "El joc ha acumulat milers de descàrregues i visualitzacions, així com centenars de reaccions per part de jugadors i espectadors. També va ser inclòs al Super Rare Mixtape Vol. 4 de Super Rare Games."
                 },
                 "minimax": {
                     "title": "Dificultat Adaptativa en Jocs de Taula a través de Minimax",
@@ -138,8 +139,9 @@
                     "title": "The Frightening Nightmare of Little Eddy",
                     "years": "2020",
                     "text-1": "The Frightening Nightmare of Little Eddy es un juego de aventura en tercera persona para PC que combina puzzles y combate, desarrollado con Unity por un equipo de seis estudiantes durante diez semanas como proyecto universitario.",
-                    "text-2": "El juego recibió 4 de 5 premios en el festival universitario de videojuegos, incluyendo el premio a la Excelencia Técnica, y también fue finalista en el Fun & Serious Game Festival en la categoría New Talents.",
-                    "text-3": "Fui uno de los dos programadores del equipo, trabajando en la implementación de gameplay y meánicas, el comportamiento de la IA y los sistemas generales del juego. También fui responsable de la implementación de sonido y del desarrollo de varias features como el comportamiento de la cámara y otros sistemas centrales."
+                    "text-2": "Fui uno de los dos programadores del equipo, trabajando en la implementación de gameplay y meánicas, el comportamiento de la IA y los sistemas generales del juego. También fui responsable de la implementación de sonido y del desarrollo de varias features como el comportamiento de la cámara y otros sistemas centrales.",
+                    "text-3": "El juego recibió 4 de 5 premios en el festival universitario de videojuegos, incluyendo el premio a la Excelencia Técnica, y también fue finalista en el Fun & Serious Game Festival en la categoría New Talents.",
+                    "text-4": "El juego ha acumulado miles de descargas y visualizaciones, así como cientos de reacciones por parte de jugadores y espectadores. También fue incluido en el Super Rare Mixtape Vol. 4 de Super Rare Games."
                 },
                 "minimax": {
                     "title": "Dificultad Adaptativa en Juegos de Mesa a través de Minimax",
@@ -251,8 +253,9 @@
                     "title": "The Frightening Nightmare of Little Eddy",
                     "years": "2020",
                     "text-1": "The Frightening Nightmare of Little Eddy is a third-person adventure game for PC combining puzzles and combat, developed in Unity by a team of six students over ten weeks as a university project.",
-                    "text-2": "The game received 4 out of 5 awards at the university video game festival, including the Technical Excellence award, and was also a finalist at the Fun & Serious Game Festival in the New Talents category.",
-                    "text-3": "I was one of the two programmers on the team, working on gameplay mechanics, AI behaviour, and general game systems. I was also responsible for sound implementation and for developing several features such as camera behaviour and other core systems."
+                    "text-2": "I was one of the two programmers on the team, working on gameplay mechanics, AI behaviour, and general game systems. I was also responsible for sound implementation and for developing several features such as camera behaviour and other core systems.",
+                    "text-3": "The game received 4 out of 5 awards at the university video game festival, including the Technical Excellence award, and was also a finalist at the Fun & Serious Game Festival in the New Talents category.",
+                    "text-4": "The game has accumulated thousands of downloads and views, as well as hundreds of reactions from players and viewers. It was also featured in the Super Rare Mixtape Vol. 4 by Super Rare Games."
                 },
                 "minimax": {
                     "title": "Adaptive Difficulty in Board Games",

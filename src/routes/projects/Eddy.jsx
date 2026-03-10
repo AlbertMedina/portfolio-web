@@ -37,6 +37,14 @@ export default function Eddy() {
             >
               GITHUB
             </a>
+            <button
+              onClick={() => {
+                const trailer = document.getElementById("trailer");
+                trailer.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              TRAILER
+            </button>
           </div>
         </div>
         <div className={styles.info}>
@@ -47,10 +55,11 @@ export default function Eddy() {
           </div>
           <div className={styles.text}>
             <p>{t("projects.eddy.text-3")}</p>
+            <p>{t("projects.eddy.text-4")}</p>
           </div>
           <img src={image2} alt={t("projects.eddy.title")} />
         </div>
-        <div className={styles.video}>
+        <div className={styles.video} id="trailer">
           <iframe
             src="https://www.youtube.com/embed/GNUQRkMLtws?si=3e0MfIqjFYIJTKza"
             title="The Frightening Nightmare Of Little Eddy - Official Trailer"

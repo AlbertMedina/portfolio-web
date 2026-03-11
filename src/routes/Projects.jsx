@@ -13,7 +13,7 @@ import fighters from "../assets/images/projects/fighters/thumbnail.webp";
 import temple from "../assets/images/projects/temple/thumbnail.webp";
 import molai from "../assets/images/projects/molai/thumbnail.webp";
 
-import ProjectButton from "../components/shared/ProjectButton";
+import ProjectButton from "../components/projects/ProjectButton";
 
 const projects = [
   {

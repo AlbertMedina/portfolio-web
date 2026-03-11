@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 
 import styles from "./About.module.css";
 
-import picture from "../assets/images/profile/profile-picture.jpeg";
+import picture from "../assets/images/profile/profile-picture.webp";
 
 export default function About() {
   const { t } = useTranslation();

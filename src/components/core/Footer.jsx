@@ -2,8 +2,8 @@ import { useTranslation } from "react-i18next";
 
 import styles from "./Footer.module.css";
 
-import githubLogo from "../../assets/images/logos/github-logo.png";
-import linkedinLogo from "../../assets/images/logos/linkedin-logo.png";
+import githubLogo from "../../assets/images/logos/github-logo.webp";
+import linkedinLogo from "../../assets/images/logos/linkedin-logo.webp";
 
 export default function Footer() {
   const { i18n } = useTranslation();

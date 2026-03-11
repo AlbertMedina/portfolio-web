@@ -5,6 +5,7 @@ import styles from "./Project.module.css";
 import logo from "../../assets/images/projects/paradiso/logo.webp";
 import image1 from "../../assets/images/projects/paradiso/image-1.webp";
 import image2 from "../../assets/images/projects/paradiso/image-2.webp";
+import image3 from "../../assets/images/projects/paradiso/image-3.webp";
 
 export default function VideoParadiso() {
   const { t } = useTranslation();
@@ -46,6 +47,9 @@ export default function VideoParadiso() {
             <p>{t("projects.paradiso.text-3")}</p>
           </div>
           <img src={image2} alt={t("projects.paradiso.title")} />
+        </div>
+        <div>
+          <img src={image2} alt="Pit Fighters" className={styles.picture} />
         </div>
       </div>
     </section>

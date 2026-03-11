@@ -48,8 +48,8 @@ export default function VideoParadiso() {
           </div>
           <img src={image2} alt={t("projects.paradiso.title")} />
         </div>
-        <div>
-          <img src={image2} alt="Pit Fighters" className={styles.picture} />
+        <div className={styles.picture}>
+          <img src={image2} alt="Pit Fighters" />
         </div>
       </div>
     </section>

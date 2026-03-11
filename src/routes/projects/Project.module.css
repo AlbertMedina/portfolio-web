@@ -112,8 +112,12 @@
 }
 
 .picture {
-  width: 1200px;
   margin-top: 15px;
-  aspect-ratio: 16 / 9;
+  height: 700px;
+}
+
+.picture img {
+  height: 100%;
   border-radius: 20px;
+  object-fit: cover;
 }

@@ -36,8 +36,8 @@ export default function PitFighters() {
             <p>{t("projects.fighters.text-2")}</p>
           </div>
         </div>
-        <div>
-          <img src={image2} alt="Pit Fighters" className={styles.picture} />
+        <div className={styles.picture}>
+          <img src={image2} alt="Pit Fighters" />
         </div>
       </div>
     </section>

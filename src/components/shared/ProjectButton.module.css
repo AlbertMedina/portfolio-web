@@ -1,10 +1,12 @@
 .button {
+  position: relative;
   border: none;
   padding: 0;
   background: none;
   cursor: pointer;
   border-radius: 30px;
   overflow: hidden;
+  font-family: inherit;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -24,4 +26,22 @@
 
 .button:hover img {
   transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  font-size: large;
+  font-weight: 600;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.button:hover .overlay {
+  transform: translateY(0);
+  opacity: 1;
 }

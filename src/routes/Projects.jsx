@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import styles from "./Projects.module.css";
 
@@ -16,28 +17,59 @@ import ProjectButton from "../components/shared/ProjectButton";
 
 const projects = [
   {
+    titleKey: "projects.paradiso.title",
+    yearKey: "projects.paradiso.years",
     image: paradiso,
     route: "/projects/video-paradiso",
     category: ["backend", "frontend"],
   },
-  { image: racerloop, route: "/projects/racerloop", category: ["gamedev"] },
   {
+    titleKey: "projects.racerloop.title",
+    yearKey: "projects.racerloop.years",
+    image: racerloop,
+    route: "/projects/racerloop",
+    category: ["gamedev"],
+  },
+  {
+    titleKey: "projects.eddy.title",
+    yearKey: "projects.eddy.years",
     image: eddy,
     route: "/projects/the-frightening-nightmare-of-little-eddy",
     category: ["gamedev"],
   },
   {
+    titleKey: "projects.minimax.title",
+    yearKey: "projects.minimax.years",
     image: minimax,
     route: "/projects/adaptive-difficulty-in-board-games",
     category: ["gamedev"],
   },
-  { image: fighters, route: "/projects/pit-fighters", category: ["gamedev"] },
-  { image: temple, route: "/projects/the-temple", category: ["gamedev"] },
-  { image: molai, route: "/projects/molai", category: ["gamedev"] },
+  {
+    titleKey: "projects.fighters.title",
+    yearKey: "projects.fighters.years",
+    image: fighters,
+    route: "/projects/pit-fighters",
+    category: ["gamedev"],
+  },
+  {
+    titleKey: "projects.temple.title",
+    yearKey: "projects.temple.years",
+    image: temple,
+    route: "/projects/the-temple",
+    category: ["gamedev"],
+  },
+  {
+    titleKey: "projects.molai.title",
+    yearKey: "projects.molai.years",
+    image: molai,
+    route: "/projects/molai",
+    category: ["gamedev"],
+  },
 ];
 
 export default function Projects() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const [filter, setFilter] = useState("all");
 
   const filteredProjects = projects.filter(
@@ -76,6 +108,8 @@ export default function Projects() {
         {filteredProjects.map((p) => (
           <ProjectButton
             key={p.route}
+            title={t(p.titleKey)}
+            year={t(p.yearKey)}
             image={p.image}
             onClick={() => navigate(p.route)}
           />

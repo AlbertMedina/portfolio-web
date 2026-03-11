@@ -17,25 +17,25 @@ export default function Nav() {
           to="/"
           className={({ isActive }) => (isActive ? styles.active : undefined)}
         >
-          {t("nav.home")}
+          <span>{t("nav.home")}</span>
         </NavLink>
         <NavLink
           to="/about"
           className={({ isActive }) => (isActive ? styles.active : undefined)}
         >
-          {t("nav.about")}
+          <span>{t("nav.about")}</span>
         </NavLink>
         <NavLink
           to="/projects"
           className={({ isActive }) => (isActive ? styles.active : undefined)}
         >
-          {t("nav.projects")}
+          <span>{t("nav.projects")}</span>
         </NavLink>
         <NavLink
           to="/resume"
           className={({ isActive }) => (isActive ? styles.active : undefined)}
         >
-          {t("nav.resume")}
+          <span>{t("nav.resume")}</span>
         </NavLink>
       </nav>
     </div>

@@ -32,23 +32,24 @@
   padding-right: 20px;
   color: #ffffff;
   font-size: x-large;
+  align-items: flex-end;
+  height: 2.5rem;
 }
 
 .navigation a {
-  margin: 0;
+  display: inline-block;
   color: #ffffff;
   text-decoration: none;
-  transition: color 0.2s ease-in-out, font-size 0.3s ease-in-out;
+  transition: color 0.2s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.navigation a span {
   display: inline-block;
-  line-height: 1.6rem;
-  vertical-align: bottom;
+  transform-origin: 50% 100%;
+  transition: transform 0.3s ease-in-out;
 }
 
-.navigation a:hover {
-  color: #ffd700;
-}
-
-.navigation a::after {
+.navigation a span::after {
   content: "";
   display: block;
   width: 0;
@@ -57,16 +58,24 @@
   transition: width 0.3s;
 }
 
-.navigation a:hover::after {
+.navigation a:hover {
+  color: #ffd700;
+}
+
+.navigation a:hover span::after {
   width: 100%;
 }
 
 .navigation a.active {
   color: #ffa500;
-  font-size: 2rem;
+  padding: 0 20px;
 }
 
-.navigation a.active::after {
+.navigation a.active span {
+  transform: scale(1.3);
+}
+
+.navigation a.active span::after {
   width: 100%;
   height: 3px;
   background: #ffa500;

@@ -3,12 +3,43 @@
   padding-top: 150px;
   padding-bottom: 150px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 60px 100px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.filters button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: none;
+  border: 2px solid #4b4b4b;
+  border-radius: 25px;
+  color: #4b4b4b;
+  font-family: inherit;
+  font-size: large;
+  font-weight: 600;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.filters button:hover {
+  background-color: #4b4b4b;
+  color: #ffffff;
+}
+
+.filters button.active {
+  background: #4b4b4b;
+  color: #ffffff;
 }

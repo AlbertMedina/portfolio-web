@@ -12,6 +12,8 @@ import About from "./routes/About";
 import Projects from "./routes/Projects";
 import Resume from "./routes/Resume";
 
+import VideoParadiso from "./routes/projects/VideoParadiso";
+
 import Racerloop from "./routes/projects/Racerloop";
 import Eddy from "./routes/projects/Eddy";
 import Minimax from "./routes/projects/Minimax";
@@ -29,6 +31,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/projects/video-paradiso" element={<VideoParadiso />} />
           <Route path="/projects/racerloop" element={<Racerloop />} />
           <Route
             path="/projects/the-frightening-nightmare-of-little-eddy"

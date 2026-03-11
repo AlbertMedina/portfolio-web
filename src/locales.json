@@ -18,6 +18,13 @@
             },
             "projects": {
                 "title": "Projectes",
+                "paradiso": {
+                    "title": "Video Paradiso",
+                    "years": "2026",
+                    "text-1": "Aquest projecte recrea l’experiència clàssica d’un videoclub en un entorn digital, permetent als usuaris explorar, llogar i valorar pel·lícules. L’aplicació suporta diferents rols d’usuari, com ara usuaris normals i administradors, cadascun amb funcions dedicades per interactuar amb el catàleg de pel·lícules i gestionar la plataforma. El sistema se centra a oferir una manera intuïtiva d’explorar contingut tot aplicant control d’accés segons rol i permisos, assegurant una experiència de lloguer de pel·lícules estructurada i ben gestionada.",
+                    "text-2": "El backend està desenvolupat amb Java 21 i Spring Boot seguint una arquitectura hexagonal. Gestiona usuaris (amb rols), pel·lícules, lloguers, valoracions i favorits, amb autenticació JWT i MySQL per a la persistència. L’API és Docker-ready i inclou documentació amb Swagger i proves d’integració.",
+                    "text-3": "El frontend és una aplicació React amb Vite, dissenyada amb Material UI. Els usuaris poden explorar pel·lícules, gestionar lloguers, favorits i valoracions, comunicant-se de manera segura amb el backend mitjançant JWT."
+                },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
@@ -134,6 +141,13 @@
             },
             "projects": {
                 "title": "Proyectos",
+                "paradiso": {
+                    "title": "Video Paradiso",
+                    "years": "2026",
+                    "text-1": "Este proyecto recrea la experiencia clásica de un videoclub en un entorno digital, permitiendo a los usuarios explorar, alquilar y valorar películas. La aplicación soporta diferentes roles de usuario, como usuarios normales y administradores, cada uno con funciones dedicadas para interactuar con el catálogo de películas y gestionar la plataforma. El sistema se centra en ofrecer una forma intuitiva de explorar contenido aplicando control de acceso por roles y permisos, asegurando una experiencia de alquiler de películas estructurada y bien gestionada.",
+                    "text-2": "El backend está desarrollado con Java 21 y Spring Boot siguiendo una arquitectura hexagonal. Gestiona usuarios (con roles), películas, alquileres, valoraciones y favoritos, con autenticación JWT y MySQL para la persistencia. La API es Docker-ready e incluye documentación con Swagger y pruebas de integración.",
+                    "text-3": "El frontend es una aplicación React con Vite, diseñada con Material UI. Los usuarios pueden explorar películas, gestionar alquileres, favoritos y valoraciones, comunicándose de forma segura con el backend mediante JWT."
+                },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
@@ -250,12 +264,18 @@
             },
             "projects": {
                 "title": "Projects",
+                "paradiso": {
+                    "title": "Video Paradiso",
+                    "years": "2026",
+                    "text-1": "This project recreates the classic video rental store experience in a digital environment, allowing users to browse, rent, and rate movies. The application supports different user roles, such as regular users and administrators, each with dedicated features to interact with the movie catalog and manage the platform. The system focuses on providing an intuitive way to explore content while enforcing role-based access and permissions, ensuring a structured and well-managed movie rental experience.",
+                    "text-2": "The backend is built with Java 21 and Spring Boot using a hexagonal architecture. It manages users (with roles), movies, rentals, reviews, and favorites, with JWT authentication and MySQL for persistence. The API is Docker-ready and includes Swagger documentation and integration tests.",
+                    "text-3": "The frontend is a React and Vite app styled with Material UI. Users can browse movies, manage rentals, favorites, and reviews, communicating securely with the backend via JWT."
+                },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
                     "text-1": "Racerloop is a free-to-play arcade spaceship racing game for PC developed in Unity. This was my first professional experience in the video game industry, working as a junior programmer in a multidisciplinary team.",
                     "text-2": "I worked on multiple areas of the game including gameplay mechanics, systems, UI, sound, VFX, tools, and bug fixing. The project was developed using agile methodologies, collaborating closely with design, art, audio, and other departments throughout development."
-
                 },
                 "eddy": {
                     "title": "The Frightening Nightmare of Little Eddy",

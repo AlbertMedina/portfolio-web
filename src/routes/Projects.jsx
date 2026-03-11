@@ -83,25 +83,25 @@ export default function Projects() {
           className={filter === "all" ? styles.active : ""}
           onClick={() => setFilter("all")}
         >
-          All
+          {t("projects.filters.all")}
         </button>
         <button
           className={filter === "backend" ? styles.active : ""}
           onClick={() => setFilter("backend")}
         >
-          Backend
+          {t("projects.filters.backend")}
         </button>
         <button
           className={filter === "frontend" ? styles.active : ""}
           onClick={() => setFilter("frontend")}
         >
-          Frontend
+          {t("projects.filters.frontend")}
         </button>
         <button
           className={filter === "gamedev" ? styles.active : ""}
           onClick={() => setFilter("gamedev")}
         >
-          Game Dev
+          {t("projects.filters.gamedev")}
         </button>
       </div>
       <div className={styles.content}>

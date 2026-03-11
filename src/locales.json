@@ -18,6 +18,12 @@
             },
             "projects": {
                 "title": "Projectes",
+                "filters": {
+                    "all": "Tot",
+                    "backend": "Backend",
+                    "frontend": "Frontend",
+                    "gamedev": "Game Dev"
+                },
                 "paradiso": {
                     "title": "Video Paradiso",
                     "years": "2026",
@@ -141,6 +147,12 @@
             },
             "projects": {
                 "title": "Proyectos",
+                "filters": {
+                    "all": "Todo",
+                    "backend": "Backend",
+                    "frontend": "Frontend",
+                    "gamedev": "Game Dev"
+                },
                 "paradiso": {
                     "title": "Video Paradiso",
                     "years": "2026",
@@ -264,6 +276,12 @@
             },
             "projects": {
                 "title": "Projects",
+                "filters": {
+                    "all": "All",
+                    "backend": "Backend",
+                    "frontend": "Frontend",
+                    "gamedev": "Game Dev"
+                },
                 "paradiso": {
                     "title": "Video Paradiso",
                     "years": "2026",

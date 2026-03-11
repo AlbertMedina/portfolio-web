@@ -15,21 +15,25 @@ import molai from "../assets/images/projects/molai/thumbnail.webp";
 import ProjectButton from "../components/shared/ProjectButton";
 
 const projects = [
-  { image: paradiso, route: "/projects/video-paradiso", category: "backend" },
-  { image: racerloop, route: "/projects/racerloop", category: "gamedev" },
+  {
+    image: paradiso,
+    route: "/projects/video-paradiso",
+    category: ["backend", "frontend"],
+  },
+  { image: racerloop, route: "/projects/racerloop", category: ["gamedev"] },
   {
     image: eddy,
     route: "/projects/the-frightening-nightmare-of-little-eddy",
-    category: "gamedev",
+    category: ["gamedev"],
   },
   {
     image: minimax,
     route: "/projects/adaptive-difficulty-in-board-games",
-    category: "gamedev",
+    category: ["gamedev"],
   },
-  { image: fighters, route: "/projects/pit-fighters", category: "gamedev" },
-  { image: temple, route: "/projects/the-temple", category: "gamedev" },
-  { image: molai, route: "/projects/molai", category: "gamedev" },
+  { image: fighters, route: "/projects/pit-fighters", category: ["gamedev"] },
+  { image: temple, route: "/projects/the-temple", category: ["gamedev"] },
+  { image: molai, route: "/projects/molai", category: ["gamedev"] },
 ];
 
 export default function Projects() {
@@ -37,7 +41,7 @@ export default function Projects() {
   const [filter, setFilter] = useState("all");
 
   const filteredProjects = projects.filter(
-    (p) => filter === "all" || p.category === filter
+    (p) => filter === "all" || p.category.includes(filter)
   );
 
   return (

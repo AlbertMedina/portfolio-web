@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import styles from "./Projects.module.css";
 
 import paradiso from "../assets/images/projects/paradiso/thumbnail.webp";
+import portfolio from "../assets/images/projects/portfolio/thumbnail.webp";
 
 import racerloop from "../assets/images/projects/racerloop/thumbnail.webp";
 import eddy from "../assets/images/projects/eddy/thumbnail.webp";
@@ -26,7 +27,7 @@ const projects = [
   {
     titleKey: "projects.portfolio.title",
     yearKey: "projects.portfolio.years",
-    image: paradiso,
+    image: portfolio,
     route: "/projects/portfolio",
     category: ["frontend"],
   },

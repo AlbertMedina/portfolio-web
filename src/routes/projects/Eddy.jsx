@@ -31,7 +31,7 @@ export default function Eddy() {
               ITCH.IO
             </a>
             <a
-              href="https://github.com/AlbertMedina/Eddy"
+              href="https://github.com/AlbertMedina/The-Frightening-Nightmare-Of-Little-Eddy.git"
               target="_blank"
               rel="noopener noreferrer"
             >

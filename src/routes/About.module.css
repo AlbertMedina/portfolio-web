@@ -1,8 +1,8 @@
 .about {
   width: 100%;
-  height: calc(100vh - 240px);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  height: calc(100vh - 220px);
+  padding-top: 110px;
+  padding-bottom: 110px;
   display: flex;
   flex-direction: column;
   justify-content: center;

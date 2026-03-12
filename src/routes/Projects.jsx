@@ -24,6 +24,13 @@ const projects = [
     category: ["backend", "frontend"],
   },
   {
+    titleKey: "projects.portfolio.title",
+    yearKey: "projects.portfolio.years",
+    image: paradiso,
+    route: "/projects/portfolio",
+    category: ["frontend"],
+  },
+  {
     titleKey: "projects.racerloop.title",
     yearKey: "projects.racerloop.years",
     image: racerloop,

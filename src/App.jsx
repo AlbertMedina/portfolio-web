@@ -13,6 +13,7 @@ import Projects from "./routes/Projects";
 import Resume from "./routes/Resume";
 
 import VideoParadiso from "./routes/projects/VideoParadiso";
+import Portfolio from "./routes/projects/Portfolio";
 
 import Racerloop from "./routes/projects/Racerloop";
 import Eddy from "./routes/projects/Eddy";
@@ -32,6 +33,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects/video-paradiso" element={<VideoParadiso />} />
+          <Route path="/projects/portfolio" element={<Portfolio />} />
           <Route path="/projects/racerloop" element={<Racerloop />} />
           <Route
             path="/projects/the-frightening-nightmare-of-little-eddy"

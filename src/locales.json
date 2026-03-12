@@ -31,6 +31,13 @@
                     "text-2": "El backend està desenvolupat amb Java 21 i Spring Boot seguint una arquitectura hexagonal. Gestiona usuaris (amb rols), pel·lícules, lloguers, valoracions i favorits, amb autenticació JWT i MySQL per a la persistència. L’API és Docker-ready i inclou documentació amb Swagger i proves d’integració.",
                     "text-3": "El frontend és una aplicació React amb Vite, dissenyada amb Material UI. Els usuaris poden explorar pel·lícules, gestionar lloguers, favorits i valoracions, comunicant-se de manera segura amb el backend mitjançant JWT."
                 },
+                "portfolio": {
+                    "title": "Portfolio Web",
+                    "years": "2026",
+                    "text-1": "Aquest projecte és el meu propi portfoli web, mitjançant el qual presento aquest mateix lloc, desenvolupat amb React i Vite. L’objectiu principal ha estat crear un espai on pugui mostrar els meus projectes i experiència d’una manera clara i visual.",
+                    "text-2": "El desplegament es fa a GitHub Pages, amb un flux automatitzat mitjançant GitHub Actions, que actualitza la web cada vegada que es modifica la branca principal, mantenint el portfoli sempre al dia sense necessitat d’intervenció manual.",
+                    "text-3": "Amb rutes per a cada secció i disponible en diversos idiomes."
+                },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
@@ -160,6 +167,13 @@
                     "text-2": "El backend está desarrollado con Java 21 y Spring Boot siguiendo una arquitectura hexagonal. Gestiona usuarios (con roles), películas, alquileres, valoraciones y favoritos, con autenticación JWT y MySQL para la persistencia. La API es Docker-ready e incluye documentación con Swagger y pruebas de integración.",
                     "text-3": "El frontend es una aplicación React con Vite, diseñada con Material UI. Los usuarios pueden explorar películas, gestionar alquileres, favoritos y valoraciones, comunicándose de forma segura con el backend mediante JWT."
                 },
+                "portfolio": {
+                    "title": "Portfolio Web",
+                    "years": "2026",
+                    "text-1": "Este proyecto es mi propio portafolio web, a través del cual se presenta este mismo sitio, desarrollado con React y Vite. El objetivo principal ha sido crear un espacio donde pueda mostrar mis proyectos y experiencia de manera clara y visual.",
+                    "text-2": "El despliegue se realiza en GitHub Pages, con un flujo automatizado mediante GitHub Actions, que actualiza la web cada vez que se modifica la rama principal, manteniendo el portafolio siempre al día sin necesidad de intervención manual.",
+                    "text-3": "Con rutas para cada sección y disponible en varios idiomas."
+                },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
@@ -288,6 +302,13 @@
                     "text-1": "This project recreates the classic video rental store experience in a digital environment, allowing users to browse, rent, and rate movies. The application supports different user roles, such as regular users and administrators, each with dedicated features to interact with the movie catalog and manage the platform. The system focuses on providing an intuitive way to explore content while enforcing role-based access and permissions, ensuring a structured and well-managed movie rental experience.",
                     "text-2": "The backend is built with Java 21 and Spring Boot using a hexagonal architecture. It manages users (with roles), movies, rentals, reviews, and favorites, with JWT authentication and MySQL for persistence. The API is Docker-ready and includes Swagger documentation and integration tests.",
                     "text-3": "The frontend is a React and Vite app styled with Material UI. Users can browse movies, manage rentals, favorites, and reviews, communicating securely with the backend via JWT."
+                },
+                "portfolio": {
+                    "title": "Portfolio Web",
+                    "years": "2026",
+                    "text-1": "This project is my own portfolio web, through which I am presenting this site, developed with React and Vite. The main goal was to create a space where I can showcase my projects and experience in a clear and visual way.",
+                    "text-2": "The deployment is done on GitHub Pages, with an automated workflow using GitHub Actions, which updates the site whenever the main branch is modified, keeping the portfolio always up to date without manual intervention.",
+                    "text-3": "With routes for each section and available in multiple languages."
                 },
                 "racerloop": {
                     "title": "Racerloop",

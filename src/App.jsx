@@ -24,7 +24,7 @@ import Molai from "./routes/projects/Molai";
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio-web/">
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />

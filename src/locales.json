@@ -38,6 +38,13 @@
                     "text-2": "El desplegament es fa a GitHub Pages, amb un flux automatitzat mitjançant GitHub Actions, que actualitza la web cada vegada que es modifica la branca principal, mantenint el portfoli sempre al dia sense necessitat d’intervenció manual.",
                     "text-3": "Amb rutes per a cada secció i disponible en diversos idiomes."
                 },
+                "chateau": {
+                    "title": "Château Maresme",
+                    "years": "2025",
+                    "text-1": "Aquest projecte és la web d’un celler fictici, Château Maresme, desenvolupada com a primera presa de contacte amb React i Material UI, amb l’objectiu d’experimentar amb components, disseny responsiu i la creació d’interfícies modernes.",
+                    "text-2": "El desplegament es va fer a Netlify, permetent publicar la web fàcilment i mantenir-la disponible en línia per poder provar el projecte en un entorn real.",
+                    "text-3": "Amb rutes per a cada secció i un enfocament en la simplicitat i la navegació intuïtiva."
+                },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
@@ -174,6 +181,13 @@
                     "text-2": "El despliegue se realiza en GitHub Pages, con un flujo automatizado mediante GitHub Actions, que actualiza la web cada vez que se modifica la rama principal, manteniendo el portafolio siempre al día sin necesidad de intervención manual.",
                     "text-3": "Con rutas para cada sección y disponible en varios idiomas."
                 },
+                "chateau": {
+                    "title": "Château Maresme",
+                    "years": "2025",
+                    "text-1": "Este proyecto es la web de una bodega ficticia, Château Maresme, desarrollada como una primera toma de contacto con React y Material UI, con el objetivo de experimentar con componentes, diseño responsivo y la creación de interfaces modernas.",
+                    "text-2": "El despliegue se realizó en Netlify, permitiendo publicar la web fácilmente y mantenerla disponible en línea para poder probar el proyecto en un entorno real.",
+                    "text-3": "Con rutas para cada sección y un enfoque en la simplicidad y la navegación intuitiva."
+                },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
@@ -309,6 +323,13 @@
                     "text-1": "This project is my own portfolio web, through which I am presenting this site, developed with React and Vite. The main goal was to create a space where I can showcase my projects and experience in a clear and visual way.",
                     "text-2": "The deployment is done on GitHub Pages, with an automated workflow using GitHub Actions, which updates the site whenever the main branch is modified, keeping the portfolio always up to date without manual intervention.",
                     "text-3": "With routes for each section and available in multiple languages."
+                },
+                "chateau": {
+                    "title": "Château Maresme",
+                    "years": "2025",
+                    "text-1": "This project is the website of a fictional winery, Château Maresme, developed as a first contact with React and Material UI, with the goal of experimenting with components, responsive design, and building modern user interfaces.",
+                    "text-2": "The deployment was done on Netlify, allowing the site to be published easily and kept online to test the project in a real environment.",
+                    "text-3": "With routes for each section and a focus on simplicity and intuitive navigation."
                 },
                 "racerloop": {
                     "title": "Racerloop",

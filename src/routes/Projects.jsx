@@ -53,6 +53,13 @@ const projects = [
     category: ["gamedev"],
   },
   {
+    titleKey: "projects.chateau.title",
+    yearKey: "projects.chateau.years",
+    image: portfolio,
+    route: "/projects/chateau-maresme",
+    category: ["frontend"],
+  },
+  {
     titleKey: "projects.fighters.title",
     yearKey: "projects.fighters.years",
     image: fighters,

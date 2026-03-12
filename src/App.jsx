@@ -14,6 +14,7 @@ import Resume from "./routes/Resume";
 
 import VideoParadiso from "./routes/projects/VideoParadiso";
 import Portfolio from "./routes/projects/Portfolio";
+import ChateauMaresme from "./routes/projects/ChateauMaresme";
 
 import Racerloop from "./routes/projects/Racerloop";
 import Eddy from "./routes/projects/Eddy";
@@ -34,6 +35,10 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects/video-paradiso" element={<VideoParadiso />} />
           <Route path="/projects/portfolio" element={<Portfolio />} />
+          <Route
+            path="/projects/chateau-maresme"
+            element={<ChateauMaresme />}
+          />
           <Route path="/projects/racerloop" element={<Racerloop />} />
           <Route
             path="/projects/the-frightening-nightmare-of-little-eddy"

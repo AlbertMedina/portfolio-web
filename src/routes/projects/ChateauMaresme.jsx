@@ -2,9 +2,9 @@ import { useTranslation } from "react-i18next";
 
 import styles from "./Project.module.css";
 
-import logo from "../../assets/images/projects/portfolio/logo.webp";
-import image1 from "../../assets/images/projects/portfolio/image-1.webp";
-import image2 from "../../assets/images/projects/portfolio/image-2.webp";
+import logo from "../../assets/images/projects/chateau/logo.webp";
+import image1 from "../../assets/images/projects/chateau/image-1.webp";
+import image2 from "../../assets/images/projects/chateau/image-2.webp";
 
 export default function Portfolio() {
   const { t } = useTranslation();

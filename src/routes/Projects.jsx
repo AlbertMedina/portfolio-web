@@ -6,6 +6,7 @@ import styles from "./Projects.module.css";
 
 import paradiso from "../assets/images/projects/paradiso/thumbnail.webp";
 import portfolio from "../assets/images/projects/portfolio/thumbnail.webp";
+import chateau from "../assets/images/projects/chateau/thumbnail.webp";
 
 import racerloop from "../assets/images/projects/racerloop/thumbnail.webp";
 import eddy from "../assets/images/projects/eddy/thumbnail.webp";
@@ -55,7 +56,7 @@ const projects = [
   {
     titleKey: "projects.chateau.title",
     yearKey: "projects.chateau.years",
-    image: portfolio,
+    image: chateau,
     route: "/projects/chateau-maresme",
     category: ["frontend"],
   },

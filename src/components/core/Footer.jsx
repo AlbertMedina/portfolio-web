@@ -20,11 +20,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={githubLogo}
-              alt="Albert Medina Cucurull GitHub"
-              width={30}
-            />
+            <img src={githubLogo} alt="Albert Medina Cucurull GitHub" />
           </a>
 
           <a
@@ -32,11 +28,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={linkedinLogo}
-              alt="Albert Medina Cucurull LinkedIn"
-              width={30}
-            />
+            <img src={linkedinLogo} alt="Albert Medina Cucurull LinkedIn" />
           </a>
         </div>
       </div>

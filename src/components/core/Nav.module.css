@@ -3,7 +3,7 @@
   z-index: 1000;
   top: 0;
   width: 100%;
-  height: 100px;
+  height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,8 +15,8 @@
   font-size: large;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding-left: 20px;
+  gap: 7px;
+  padding-left: 15px;
 }
 
 .about p {
@@ -24,17 +24,21 @@
 }
 
 .name {
-  font-size: xx-large;
+  font-size: x-large;
+}
+
+.role {
+  font-size: small;
 }
 
 .navigation {
   display: flex;
-  gap: 20px;
-  padding-right: 20px;
+  gap: 15px;
+  padding-right: 15px;
   color: #ffffff;
-  font-size: x-large;
+  font-size: large;
   align-items: flex-end;
-  height: 2.5rem;
+  height: 2rem;
 }
 
 .navigation a {
@@ -54,7 +58,7 @@
   content: "";
   display: block;
   width: 0;
-  height: 2px;
+  height: 1.5px;
   background: #ffd700;
   transition: width 0.3s;
 }
@@ -69,7 +73,7 @@
 
 .navigation a.active {
   color: #ffa500;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .navigation a.active span {
@@ -78,6 +82,6 @@
 
 .navigation a.active span::after {
   width: 100%;
-  height: 3px;
+  height: 2px;
   background: #ffa500;
 }

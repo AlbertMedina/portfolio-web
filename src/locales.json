@@ -55,7 +55,7 @@
                     "title": "The Frightening Nightmare of Little Eddy",
                     "years": "2020",
                     "text-1": "The Frightening Nightmare of Little Eddy és un joc d’aventura en tercera persona per a PC que combina trencaclosques i combat, desenvolupat amb Unity per un equip de sis estudiants al llarg de deu setmanes com a projecte universitari.",
-                    "text-2": "Vaig ser un dels dos programadors de l’equip, treballant en la implementació de gampleay i mecàniques, el comportament de la IA i els sistemes generals del joc. També vaig ser responsable de la implementació del so i del desenvolupament de diverses features com ara el comportament de la càmera i altres sistemes centrals.",
+                    "text-2": "Vaig ser un dels dos programadors de l’equip, treballant en la implementació de gameplay i mecàniques, el comportament de la IA i els sistemes generals del joc. També vaig ser responsable de la implementació del so i del desenvolupament de diverses features com ara el comportament de la càmera i altres sistemes centrals.",
                     "text-3": "El joc va obtenir 4 de 5 premis al festival universitari de videojocs, incloent-hi el premi a l’Excel·lència Tècnica, i també va ser finalista al Fun & Serious Game Festival a la categoria New Talents.",
                     "text-4": "El joc ha acumulat milers de descàrregues i visualitzacions, així com centenars de reaccions per part de jugadors i espectadors. També va ser inclòs al Super Rare Mixtape Vol. 4 de Super Rare Games."
                 },
@@ -94,7 +94,7 @@
                         "years": "2022 - 2025",
                         "text-1": "Participació en el desenvolupament de Racerloop, un joc free-to-play arcade de carreres de naus espacials per a PC.",
                         "text-2": "Contribució en implementació de gameplay, mecàniques de joc, sistemes de joc, UI, àudio, VFX, tools i bug-fixing.",
-                        "text-3": "Col·laboració en un equip multidisciplinari utilitzant motodologies Agile / Scrum.",
+                        "text-3": "Col·laboració en un equip multidisciplinari utilitzant metodologies Agile / Scrum.",
                         "text-4": "Tecnologies: C#, Unity, Git, GitHub, Jira, Confluence."
                     }
                 },
@@ -236,8 +236,8 @@
                         "position": "Programador de Videojuegos Junior | Nexxyo Labs / Maniac Panda Games",
                         "years": "2022 - 2025",
                         "text-1": "Participación en el desarrollo de Racerloop, un juego free-to-play arcade de carreras de naves espaciales para PC.",
-                        "text-2": "Contribución en implementación de gameplay, mecànicas de juego, sistemas de juego, UI, audio, VFX, tools i bug-fixing.",
-                        "text-3": "Colaboración en un equipo multidisciplinar utilitzando motodologías Agile / Scrum.",
+                        "text-2": "Contribución en implementación de gameplay, mecánicas de juego, sistemas de juego, UI, audio, VFX, tools y bug-fixing.",
+                        "text-3": "Colaboración en un equipo multidisciplinar utilitzando metodologías Agile / Scrum.",
                         "text-4": "Tecnologías: C#, Unity, Git, GitHub, Jira, Confluence."
                     }
                 },
@@ -320,7 +320,7 @@
                 "portfolio": {
                     "title": "Portfolio Web",
                     "years": "2026",
-                    "text-1": "This project is my own portfolio web, through which I am presenting this site, developed with React and Vite. The main goal was to create a space where I can showcase my projects and experience in a clear and visual way.",
+                    "text-1": "This project is my personal portfolio website, through which I am presenting this site, developed with React and Vite. The main goal was to create a space where I can showcase my projects and experience in a clear and visual way.",
                     "text-2": "The deployment is done on GitHub Pages, with an automated workflow using GitHub Actions, which updates the site whenever the main branch is modified, keeping the portfolio always up to date without manual intervention.",
                     "text-3": "With routes for each section and available in multiple languages."
                 },
@@ -348,7 +348,7 @@
                 "minimax": {
                     "title": "Adaptive Difficulty in Board Games through Minimax",
                     "years": "2021",
-                    "text-1": "Adaptive Difficulty in Board Games is the title of my Bachelor's Degree Final Project. The project focuses on the design and implementation of an AI algorithm based on Minimax that dynamically adapts its performance according to the opponent’s skill level, creating adaptive difficulty.",
+                    "text-1": "Adaptive Difficulty in Board Games through Minimax is the title of my Bachelor's Degree Final Project. The project focuses on the design and implementation of an AI algorithm based on Minimax that dynamically adapts its performance according to the opponent’s skill level, creating adaptive difficulty.",
                     "text-2": "The algorithm was implemented and tested using a Checkers game prototype developed in Unity in order to evaluate its behaviour and effectiveness. The project received a final grade of Excellent (9.4/10)."
                 },
                 "fighters": {

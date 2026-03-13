@@ -5,8 +5,10 @@ import i18n from "/i18n.config";
 
 import "./App.css";
 
+import ScrollToTop from "./components/core/ScrollToTop";
 import Nav from "./components/core/Nav";
 import Footer from "./components/core/Footer";
+
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Projects from "./routes/Projects";
@@ -27,6 +29,7 @@ function App() {
   return (
     <I18nextProvider i18n={i18n}>
       <BrowserRouter basename="/portfolio-web/">
+        <ScrollToTop />
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />

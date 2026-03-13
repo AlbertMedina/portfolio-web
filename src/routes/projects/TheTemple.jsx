@@ -24,7 +24,7 @@ export default function TheTemple() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Itch.io
+              {t("projects.temple.itchio-button")}
             </a>
           </div>
         </div>

@@ -26,14 +26,14 @@ export default function VideoParadiso() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub (API)
+              {t("projects.paradiso.github-backend-button")}
             </a>
             <a
               href="https://github.com/AlbertMedina/video-paradiso-frontend.git"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub (Frontend)
+              {t("projects.paradiso.github-frontend-button")}
             </a>
           </div>
         </div>

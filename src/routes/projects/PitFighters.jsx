@@ -25,7 +25,7 @@ export default function PitFighters() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Itch.io
+              {t("projects.fighters.itchio-button")}
             </a>
           </div>
         </div>

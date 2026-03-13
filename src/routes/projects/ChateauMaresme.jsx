@@ -25,14 +25,14 @@ export default function Portfolio() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              {t("projects.chateau.github-button")}
             </a>
             <a
               href="https://chateau-maresme-react.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Website (Netlify)
+              {t("projects.chateau.website-button")}
             </a>
           </div>
         </div>

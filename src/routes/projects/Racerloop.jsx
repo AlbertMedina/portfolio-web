@@ -24,7 +24,7 @@ export default function Racerloop() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Official Website
+              {t("projects.racerloop.website-button")}
             </a>
           </div>
         </div>

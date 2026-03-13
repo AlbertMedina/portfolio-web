@@ -25,7 +25,7 @@ export default function Portfolio() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              {t("projects.portfolio.github-button")}
             </a>
           </div>
         </div>

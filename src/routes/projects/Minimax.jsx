@@ -24,14 +24,14 @@ export default function Minimax() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              {t("projects.minimax.github-button")}
             </a>
             <a
               href="https://repositori.tecnocampus.cat/handle/20.500.12367/1808"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Essay
+              {t("projects.minimax.essay-button")}
             </a>
           </div>
         </div>

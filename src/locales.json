@@ -29,27 +29,33 @@
                     "years": "2026",
                     "text-1": "Aquest projecte recrea l’experiència clàssica d’un videoclub en un entorn digital, permetent als usuaris explorar, llogar i valorar pel·lícules. L’aplicació suporta diferents rols d’usuari, com ara usuaris normals i administradors, cadascun amb funcions dedicades per interactuar amb el catàleg de pel·lícules i gestionar la plataforma. El sistema se centra a oferir una manera intuïtiva d’explorar contingut tot aplicant control d’accés segons rol i permisos, assegurant una experiència de lloguer de pel·lícules estructurada i ben gestionada.",
                     "text-2": "El backend està desenvolupat amb Java 21 i Spring Boot seguint una arquitectura hexagonal. Gestiona usuaris (amb rols), pel·lícules, lloguers, valoracions i favorits, amb autenticació JWT i MySQL per a la persistència. L’API és Docker-ready i inclou documentació amb Swagger i proves d’integració.",
-                    "text-3": "El frontend és una aplicació React amb Vite, dissenyada amb Material UI. Els usuaris poden explorar pel·lícules, gestionar lloguers, favorits i valoracions, comunicant-se de manera segura amb el backend mitjançant JWT."
+                    "text-3": "El frontend és una aplicació React amb Vite, dissenyada amb Material UI. Els usuaris poden explorar pel·lícules, gestionar lloguers, favorits i valoracions, comunicant-se de manera segura amb el backend mitjançant JWT.",
+                    "github-backend-button": "GitHub (API)",
+                    "github-frontend-button": "GitHub (Frontend)"
                 },
                 "portfolio": {
                     "title": "Portfolio Web",
                     "years": "2026",
                     "text-1": "Aquest projecte és el meu propi portfoli web, mitjançant el qual presento aquest mateix lloc, desenvolupat amb React i Vite. L’objectiu principal ha estat crear un espai on pugui mostrar els meus projectes i experiència d’una manera clara i visual.",
                     "text-2": "El desplegament es fa a GitHub Pages, amb un flux automatitzat mitjançant GitHub Actions, que actualitza la web cada vegada que es modifica la branca principal, mantenint el portfoli sempre al dia sense necessitat d’intervenció manual.",
-                    "text-3": "Amb rutes per a cada secció i disponible en diversos idiomes."
+                    "text-3": "Amb rutes per a cada secció i disponible en diversos idiomes.",
+                    "github-button": "GitHub"
                 },
                 "chateau": {
                     "title": "Château Maresme",
                     "years": "2025",
                     "text-1": "Aquest projecte és la web d’un celler fictici, Château Maresme, desenvolupada com a primera presa de contacte amb React i Material UI, amb l’objectiu d’experimentar amb components, disseny responsiu i la creació d’interfícies modernes.",
                     "text-2": "El desplegament es va fer a Netlify, permetent publicar la web fàcilment i mantenir-la disponible en línia per poder provar el projecte en un entorn real.",
-                    "text-3": "Amb rutes per a cada secció i un enfocament en la simplicitat i la navegació intuïtiva."
+                    "text-3": "Amb rutes per a cada secció i un enfocament en la simplicitat i la navegació intuïtiva.",
+                    "github-button": "GitHub",
+                    "website-button": "Web (Netlify)"
                 },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
                     "text-1": "Racerloop és un joc de free-to-play arcade de carreres de naus espacials per a PC desenvolupat amb Unity. Aquesta va ser la meva primera experiència professional a la indústria dels videojocs, treballant com a programador junior en un equip multidisciplinari.",
-                    "text-2": "Vaig treballar en diverses àrees del joc, incloent-hi la implementació de mecàniques, sistemes, UI, so, VFX, tools i correcció de bugs. El projecte es va desenvolupar utilitzant metodologies àgils, col·laborant estretament amb disseny, art, àudio i altres departaments al llarg del desenvolupament."
+                    "text-2": "Vaig treballar en diverses àrees del joc, incloent-hi la implementació de mecàniques, sistemes, UI, so, VFX, tools i correcció de bugs. El projecte es va desenvolupar utilitzant metodologies àgils, col·laborant estretament amb disseny, art, àudio i altres departaments al llarg del desenvolupament.",
+                    "website-button": "Web Oficial"
                 },
                 "eddy": {
                     "title": "The Frightening Nightmare of Little Eddy",
@@ -57,19 +63,25 @@
                     "text-1": "The Frightening Nightmare of Little Eddy és un joc d’aventura en tercera persona per a PC que combina trencaclosques i combat, desenvolupat amb Unity per un equip de sis estudiants al llarg de deu setmanes com a projecte universitari.",
                     "text-2": "Vaig ser un dels dos programadors de l’equip, treballant en la implementació de gameplay i mecàniques, el comportament de la IA i els sistemes generals del joc. També vaig ser responsable de la implementació del so i del desenvolupament de diverses features com ara el comportament de la càmera i altres sistemes centrals.",
                     "text-3": "El joc va obtenir 4 de 5 premis al festival universitari de videojocs, incloent-hi el premi a l’Excel·lència Tècnica, i també va ser finalista al Fun & Serious Game Festival a la categoria New Talents.",
-                    "text-4": "El joc ha acumulat milers de descàrregues i visualitzacions, així com centenars de reaccions per part de jugadors i espectadors. També va ser inclòs al Super Rare Mixtape Vol. 4 de Super Rare Games."
+                    "text-4": "El joc ha acumulat milers de descàrregues i visualitzacions, així com centenars de reaccions per part de jugadors i espectadors. També va ser inclòs al Super Rare Mixtape Vol. 4 de Super Rare Games.",
+                    "itchio-button": "Itch.io",
+                    "github-button": "GitHub",
+                    "trailer-button": "Tràiler"
                 },
                 "minimax": {
                     "title": "Dificultat Adaptativa en Jocs de Taula a través de Minimax",
                     "years": "2021",
                     "text-1": "Dificultat Adaptativa en Jocs de Taula a través de Minimax és el títol del meu Treball de Fi de Grau. El projecte se centra en el disseny i implementació d’un algoritme d’IA basat en Minimax que s’adapta de manera dinàmica segons el nivell d’habilitat de l’oponent, creant una dificultat adaptativa.",
-                    "text-2": "L’algoritme es va implementar i provar utilitzant un prototip de joc del joc de les Dames desenvolupat amb Unity per avaluar-ne el comportament i l’eficàcia. El projecte va obtenir una nota final d’Excel·lent (9,4/10)."
+                    "text-2": "L’algoritme es va implementar i provar utilitzant un prototip de joc del joc de les Dames desenvolupat amb Unity per avaluar-ne el comportament i l’eficàcia. El projecte va obtenir una nota final d’Excel·lent (9,4/10).",
+                    "github-button": "GitHub",
+                    "essay-button": "Treball"
                 },
                 "fighters": {
                     "title": "Pit Fighters",
                     "years": "2020",
                     "text-1": "Pit Fighters és un shooter d’acció en primera persona desenvolupat durant la GMTK Game Jam 2020, centrat en combats intensos tipus deathmatch contra oponents de IA. El joc presenta rondes curtes i caòtiques on les regles canvien a cada partida, obligant el jugador a adaptar constantment la seva estratègia per sobreviure i guanyar.",
-                    "text-2": "El joc es va desenvolupar amb Unity per un equip de cinc persones en menys de 48 hores durant la game jam."
+                    "text-2": "El joc es va desenvolupar amb Unity per un equip de cinc persones en menys de 48 hores durant la game jam.",
+                    "itchio-button": "Itch.io"
                 },
                 "molai": {
                     "title": "Molai",
@@ -82,7 +94,8 @@
                     "years": "2019",
                     "text-1": "The Temple és un joc shooter top-down inspirat en l’univers de Lovecraft, desenvolupat amb Unity per un equip de quatre estudiants com a projecte universitari.",
                     "text-2": "Vaig ser el principal programador de l’equip, implementant els sistemes centrals de jugabilitat i gestionant la majoria de tasques de programació del joc.",
-                    "text-3": "El meu treball incloïa els controls del jugador, el comportament dels enemics, les mecàniques de combat i la lògica general de jugabilitat."
+                    "text-3": "El meu treball incloïa els controls del jugador, el comportament dels enemics, les mecàniques de combat i la lògica general de jugabilitat.",
+                    "itchio-button": "Itch.io"
                 }
             },
             "resume": {
@@ -172,27 +185,33 @@
                     "years": "2026",
                     "text-1": "Este proyecto recrea la experiencia clásica de un videoclub en un entorno digital, permitiendo a los usuarios explorar, alquilar y valorar películas. La aplicación soporta diferentes roles de usuario, como usuarios normales y administradores, cada uno con funciones dedicadas para interactuar con el catálogo de películas y gestionar la plataforma. El sistema se centra en ofrecer una forma intuitiva de explorar contenido aplicando control de acceso por roles y permisos, asegurando una experiencia de alquiler de películas estructurada y bien gestionada.",
                     "text-2": "El backend está desarrollado con Java 21 y Spring Boot siguiendo una arquitectura hexagonal. Gestiona usuarios (con roles), películas, alquileres, valoraciones y favoritos, con autenticación JWT y MySQL para la persistencia. La API es Docker-ready e incluye documentación con Swagger y pruebas de integración.",
-                    "text-3": "El frontend es una aplicación React con Vite, diseñada con Material UI. Los usuarios pueden explorar películas, gestionar alquileres, favoritos y valoraciones, comunicándose de forma segura con el backend mediante JWT."
+                    "text-3": "El frontend es una aplicación React con Vite, diseñada con Material UI. Los usuarios pueden explorar películas, gestionar alquileres, favoritos y valoraciones, comunicándose de forma segura con el backend mediante JWT.",
+                    "github-backend-button": "GitHub (API)",
+                    "github-frontend-button": "GitHub (Frontend)"
                 },
                 "portfolio": {
                     "title": "Portfolio Web",
                     "years": "2026",
                     "text-1": "Este proyecto es mi propio portafolio web, a través del cual se presenta este mismo sitio, desarrollado con React y Vite. El objetivo principal ha sido crear un espacio donde pueda mostrar mis proyectos y experiencia de manera clara y visual.",
                     "text-2": "El despliegue se realiza en GitHub Pages, con un flujo automatizado mediante GitHub Actions, que actualiza la web cada vez que se modifica la rama principal, manteniendo el portafolio siempre al día sin necesidad de intervención manual.",
-                    "text-3": "Con rutas para cada sección y disponible en varios idiomas."
+                    "text-3": "Con rutas para cada sección y disponible en varios idiomas.",
+                    "github-button": "GitHub"
                 },
                 "chateau": {
                     "title": "Château Maresme",
                     "years": "2025",
                     "text-1": "Este proyecto es la web de una bodega ficticia, Château Maresme, desarrollada como una primera toma de contacto con React y Material UI, con el objetivo de experimentar con componentes, diseño responsivo y la creación de interfaces modernas.",
                     "text-2": "El despliegue se realizó en Netlify, permitiendo publicar la web fácilmente y mantenerla disponible en línea para poder probar el proyecto en un entorno real.",
-                    "text-3": "Con rutas para cada sección y un enfoque en la simplicidad y la navegación intuitiva."
+                    "text-3": "Con rutas para cada sección y un enfoque en la simplicidad y la navegación intuitiva.",
+                    "github-button": "GitHub",
+                    "website-button": "Web (Netlify)"
                 },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
                     "text-1": "Racerloop es un juego free-to-play arcade de carreras de naves espaciales para PC desarrollado con Unity. Esta fue mi primera experiencia profesional en la industria de los videojuegos, trabajando como programador junior en un equipo multidisciplinario.",
-                    "text-2": "Trabajé en múltiples áreas del juego, incluyendo la implementación de mecánicas, sistemas, UI, sonido, VFX, herramientas y corrección de bugs. El proyecto se desarrolló utilizando metodologías ágiles, colaborando estrechamente con diseño, arte, audio y otros departamentos durante todo el desarrollo."
+                    "text-2": "Trabajé en múltiples áreas del juego, incluyendo la implementación de mecánicas, sistemas, UI, sonido, VFX, herramientas y corrección de bugs. El proyecto se desarrolló utilizando metodologías ágiles, colaborando estrechamente con diseño, arte, audio y otros departamentos durante todo el desarrollo.",
+                    "website-button": "Web Oficial"
                 },
                 "eddy": {
                     "title": "The Frightening Nightmare of Little Eddy",
@@ -200,19 +219,25 @@
                     "text-1": "The Frightening Nightmare of Little Eddy es un juego de aventura en tercera persona para PC que combina puzzles y combate, desarrollado con Unity por un equipo de seis estudiantes durante diez semanas como proyecto universitario.",
                     "text-2": "Fui uno de los dos programadores del equipo, trabajando en la implementación de gameplay y meánicas, el comportamiento de la IA y los sistemas generales del juego. También fui responsable de la implementación de sonido y del desarrollo de varias features como el comportamiento de la cámara y otros sistemas centrales.",
                     "text-3": "El juego recibió 4 de 5 premios en el festival universitario de videojuegos, incluyendo el premio a la Excelencia Técnica, y también fue finalista en el Fun & Serious Game Festival en la categoría New Talents.",
-                    "text-4": "El juego ha acumulado miles de descargas y visualizaciones, así como cientos de reacciones por parte de jugadores y espectadores. También fue incluido en el Super Rare Mixtape Vol. 4 de Super Rare Games."
+                    "text-4": "El juego ha acumulado miles de descargas y visualizaciones, así como cientos de reacciones por parte de jugadores y espectadores. También fue incluido en el Super Rare Mixtape Vol. 4 de Super Rare Games.",
+                    "itchio-button": "Itch.io",
+                    "github-button": "GitHub",
+                    "trailer-button": "Trailer"
                 },
                 "minimax": {
                     "title": "Dificultad Adaptativa en Juegos de Mesa a través de Minimax",
                     "years": "2021",
                     "text-1": "Dificultad Adaptativa en Juegos de Mesa a través de Minimax es el título de mi Trabajo de Fin de Grado. El proyecto se centra en el diseño e implementación de un algoritmo de IA basado en Minimax que se adapta dinámicamente según el nivel de habilidad del oponente, creando una dificultad adaptativa.",
-                    "text-2": "El algoritmo se implementó y probó utilizando un prototipo del juego de las Damas desarrollado con Unity para evaluar su comportamiento y efectividad. El proyecto recibió una calificación final de Excelente (9,4/10)."
+                    "text-2": "El algoritmo se implementó y probó utilizando un prototipo del juego de las Damas desarrollado con Unity para evaluar su comportamiento y efectividad. El proyecto recibió una calificación final de Excelente (9,4/10).",
+                    "github-button": "GitHub",
+                    "essay-button": "Trabajo"
                 },
                 "fighters": {
                     "title": "Pit Fighters",
                     "years": "2020",
                     "text-1": "Pit Fighters es un shooter de acción en primera persona desarrollado durante la GMTK Game Jam 2020, centrado en combates intensos tipo deathmatch contra oponentes de IA. El juego presenta rondas cortas y caóticas donde las reglas cambian en cada partida, obligando al jugador a adaptar constantemente su estrategia para sobrevivir y ganar.",
-                    "text-2": "El juego fue desarrollado con Unity por un equipo de cinco personas en menos de 48 horas durante la game jam."
+                    "text-2": "El juego fue desarrollado con Unity por un equipo de cinco personas en menos de 48 horas durante la game jam.",
+                    "itchio-button": "Itch.io"
                 },
                 "molai": {
                     "title": "Molai",
@@ -225,7 +250,8 @@
                     "years": "2019",
                     "text-1": "The Temple es un juego shooter top-down inspirado en el universo de Lovecraft, desarrollado con Unity por un equipo de cuatro estudiantes como proyecto universitario.",
                     "text-2": "Fui el programador principal del equipo, implementando los sistemas centrales de jugabilidad y gestionando la mayoría de tareas de programación del juego.",
-                    "text-3": "Mi trabajo incluía los controles del jugador, el comportamiento de los enemigos, las mecánicas de combate y la lógica general de jugabilidad."
+                    "text-3": "Mi trabajo incluía los controles del jugador, el comportamiento de los enemigos, las mecánicas de combate y la lógica general de jugabilidad.",
+                    "itchio-button": "Itch.io"
                 }
             },
             "resume": {
@@ -315,27 +341,33 @@
                     "years": "2026",
                     "text-1": "This project recreates the classic video rental store experience in a digital environment, allowing users to browse, rent, and rate movies. The application supports different user roles, such as regular users and administrators, each with dedicated features to interact with the movie catalog and manage the platform. The system focuses on providing an intuitive way to explore content while enforcing role-based access and permissions, ensuring a structured and well-managed movie rental experience.",
                     "text-2": "The backend is built with Java 21 and Spring Boot using a hexagonal architecture. It manages users (with roles), movies, rentals, reviews, and favorites, with JWT authentication and MySQL for persistence. The API is Docker-ready and includes Swagger documentation and integration tests.",
-                    "text-3": "The frontend is a React and Vite app styled with Material UI. Users can browse movies, manage rentals, favorites, and reviews, communicating securely with the backend via JWT."
+                    "text-3": "The frontend is a React and Vite app styled with Material UI. Users can browse movies, manage rentals, favorites, and reviews, communicating securely with the backend via JWT.",
+                    "github-backend-button": "GitHub (API)",
+                    "github-frontend-button": "GitHub (Frontend)"
                 },
                 "portfolio": {
                     "title": "Portfolio Web",
                     "years": "2026",
                     "text-1": "This project is my personal portfolio website, through which I am presenting this site, developed with React and Vite. The main goal was to create a space where I can showcase my projects and experience in a clear and visual way.",
                     "text-2": "The deployment is done on GitHub Pages, with an automated workflow using GitHub Actions, which updates the site whenever the main branch is modified, keeping the portfolio always up to date without manual intervention.",
-                    "text-3": "With routes for each section and available in multiple languages."
+                    "text-3": "With routes for each section and available in multiple languages.",
+                    "github-button": "GitHub"
                 },
                 "chateau": {
                     "title": "Château Maresme",
                     "years": "2025",
                     "text-1": "This project is the website of a fictional winery, Château Maresme, developed as a first contact with React and Material UI, with the goal of experimenting with components, responsive design, and building modern user interfaces.",
                     "text-2": "The deployment was done on Netlify, allowing the site to be published easily and kept online to test the project in a real environment.",
-                    "text-3": "With routes for each section and a focus on simplicity and intuitive navigation."
+                    "text-3": "With routes for each section and a focus on simplicity and intuitive navigation.",
+                    "github-button": "GitHub",
+                    "website-button": "Website (Netlify)"
                 },
                 "racerloop": {
                     "title": "Racerloop",
                     "years": "2022 - 2025",
                     "text-1": "Racerloop is a free-to-play arcade spaceship racing game for PC developed in Unity. This was my first professional experience in the video game industry, working as a junior programmer in a multidisciplinary team.",
-                    "text-2": "I worked on multiple areas of the game including gameplay mechanics, systems, UI, sound, VFX, tools, and bug fixing. The project was developed using agile methodologies, collaborating closely with design, art, audio, and other departments throughout development."
+                    "text-2": "I worked on multiple areas of the game including gameplay mechanics, systems, UI, sound, VFX, tools, and bug fixing. The project was developed using agile methodologies, collaborating closely with design, art, audio, and other departments throughout development.",
+                    "website-button": "Official Website"
                 },
                 "eddy": {
                     "title": "The Frightening Nightmare of Little Eddy",
@@ -343,19 +375,25 @@
                     "text-1": "The Frightening Nightmare of Little Eddy is a third-person adventure game for PC combining puzzles and combat, developed in Unity by a team of six students over ten weeks as a university project.",
                     "text-2": "I was one of the two programmers on the team, working on gameplay mechanics, AI behaviour, and general game systems. I was also responsible for sound implementation and for developing several features such as camera behaviour and other core systems.",
                     "text-3": "The game received 4 out of 5 awards at the university video game festival, including the Technical Excellence award, and was also a finalist at the Fun & Serious Game Festival in the New Talents category.",
-                    "text-4": "The game has accumulated thousands of downloads and views, as well as hundreds of reactions from players and viewers. It was also featured in the Super Rare Mixtape Vol. 4 by Super Rare Games."
+                    "text-4": "The game has accumulated thousands of downloads and views, as well as hundreds of reactions from players and viewers. It was also featured in the Super Rare Mixtape Vol. 4 by Super Rare Games.",
+                    "itchio-button": "Itch.io",
+                    "github-button": "GitHub",
+                    "trailer-button": "Trailer"
                 },
                 "minimax": {
                     "title": "Adaptive Difficulty in Board Games through Minimax",
                     "years": "2021",
                     "text-1": "Adaptive Difficulty in Board Games through Minimax is the title of my Bachelor's Degree Final Project. The project focuses on the design and implementation of an AI algorithm based on Minimax that dynamically adapts its performance according to the opponent’s skill level, creating adaptive difficulty.",
-                    "text-2": "The algorithm was implemented and tested using a Checkers game prototype developed in Unity in order to evaluate its behaviour and effectiveness. The project received a final grade of Excellent (9.4/10)."
+                    "text-2": "The algorithm was implemented and tested using a Checkers game prototype developed in Unity in order to evaluate its behaviour and effectiveness. The project received a final grade of Excellent (9.4/10).",
+                    "github-button": "GitHub",
+                    "essay-button": "Essay"
                 },
                 "fighters": {
                     "title": "Pit Fighters",
                     "years": "2020",
                     "text-1": "Pit Fighters is a fast-paced first-person action shooter developed during the GMTK Game Jam 2020, focused on intense deathmatch-style combat against AI opponents. The game features short, chaotic rounds where the rules change every match, forcing the player to constantly adapt their strategy in order to survive and win.",
-                    "text-2": "The game was developed in Unity by a team of five people in under 48 hours during the game jam."
+                    "text-2": "The game was developed in Unity by a team of five people in under 48 hours during the game jam.",
+                    "itchio-button": "Itch.io"
                 },
                 "molai": {
                     "title": "Molai",
@@ -368,7 +406,8 @@
                     "years": "2019",
                     "text-1": "The Temple is a top-down shooter game inspired by Lovecraft's universe, developed in Unity by a team of four students as part of a university project.",
                     "text-2": "I was the main programmer on the team, implementing the core gameplay systems and handling most of the game programming tasks.",
-                    "text-3": "My work included player controls, enemy behaviour, combat mechanics, and general gameplay logic."
+                    "text-3": "My work included player controls, enemy behaviour, combat mechanics, and general gameplay logic.",
+                    "itchio-button": "Itch.io"
                 }
             },
             "resume": {

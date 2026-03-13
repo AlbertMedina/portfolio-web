@@ -13,7 +13,7 @@ export default function Portfolio() {
       <div className={styles.content}>
         <div className={styles.title}>
           <div className={styles.titleLeft}>
-            <img src={logo} alt="Portfolio Logo" />
+            <img src={logo} alt={t("projects.portfolio.title")} />
             <div className={styles.titleText}>
               <h1>{t("projects.portfolio.title")}</h1>
               <h2>{t("projects.portfolio.years")}</h2>

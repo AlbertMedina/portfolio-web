@@ -13,10 +13,7 @@ export default function Eddy() {
       <div className={styles.content}>
         <div className={styles.title}>
           <div className={styles.titleLeft}>
-            <img
-              src={logo}
-              alt="The Frightening Nightmare Of Little Eddy Logo"
-            />
+            <img src={logo} alt={t("projects.eddy.title")} />
             <div className={styles.titleText}>
               <h1>{t("projects.eddy.title")}</h1>
               <h2>{t("projects.eddy.years")}</h2>

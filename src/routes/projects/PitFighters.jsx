@@ -13,7 +13,7 @@ export default function PitFighters() {
       <div className={styles.content}>
         <div className={styles.title}>
           <div className={styles.titleLeft}>
-            <img src={logo} alt="Pit Fighters Logo" />
+            <img src={logo} alt={t("projects.fighters.title")} />
             <div className={styles.titleText}>
               <h1>{t("projects.fighters.title")}</h1>
               <h2>{t("projects.fighters.years")}</h2>

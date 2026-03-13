@@ -12,7 +12,7 @@ export default function TheTemple() {
       <div className={styles.content}>
         <div className={styles.title}>
           <div className={styles.titleLeft}>
-            <img src={logo} alt="Adaptive Difficulty In Board Games Logo" />
+            <img src={logo} alt={t("projects.temple.title")} />
             <div className={styles.titleText}>
               <h1>{t("projects.temple.title")}</h1>
               <h2>{t("projects.temple.years")}</h2>
@@ -39,7 +39,7 @@ export default function TheTemple() {
         <div className={styles.video}>
           <iframe
             src="https://www.youtube.com/embed/GY_OpafnNc8?si=rEdug5W_blUr7VTx"
-            title="Adaptive Difficulty In Board Games"
+            title="The Temple"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"

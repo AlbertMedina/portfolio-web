@@ -14,7 +14,7 @@ export default function VideoParadiso() {
       <div className={styles.content}>
         <div className={styles.title}>
           <div className={styles.titleLeft}>
-            <img src={logo} alt="Video Paradiso Logo" />
+            <img src={logo} alt={t("projects.paradiso.title")} />
             <div className={styles.titleText}>
               <h1>{t("projects.paradiso.title")}</h1>
               <h2>{t("projects.paradiso.years")}</h2>

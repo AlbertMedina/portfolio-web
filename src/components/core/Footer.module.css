@@ -23,11 +23,11 @@
   font-size: 14px;
   color: #ffffff;
   text-decoration: none;
-  transition: opacity 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .info > a:hover {
-  opacity: 0.7;
+  color: #ffd700;
 }
 
 .logos {

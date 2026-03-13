@@ -24,7 +24,7 @@ export default function Racerloop() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              OFFICIAL WEB PAGE
+              Official Website
             </a>
           </div>
         </div>

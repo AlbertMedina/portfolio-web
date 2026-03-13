@@ -25,7 +25,7 @@ export default function PitFighters() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              ITCH.IO
+              Itch.io
             </a>
           </div>
         </div>

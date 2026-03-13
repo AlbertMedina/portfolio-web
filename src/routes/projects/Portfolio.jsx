@@ -25,7 +25,7 @@ export default function Portfolio() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GITHUB
+              GitHub
             </a>
           </div>
         </div>

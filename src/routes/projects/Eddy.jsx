@@ -28,14 +28,14 @@ export default function Eddy() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              ITCH.IO
+              Itch.io
             </a>
             <a
               href="https://github.com/AlbertMedina/The-Frightening-Nightmare-Of-Little-Eddy.git"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GITHUB
+              GitHub
             </a>
             <button
               onClick={() => {
@@ -43,7 +43,7 @@ export default function Eddy() {
                 trailer.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              TRAILER
+              Trailer
             </button>
           </div>
         </div>

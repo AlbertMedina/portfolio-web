@@ -140,6 +140,15 @@
                     "devops": "DevOps",
                     "game-development": "Desenvolupament de Videojocs"
                 },
+                "professional-skills": {
+                    "title": "Competències professionals",
+                    "clean-code": "Desenvolupament de codi net, mantenible i ben estructurat.",
+                    "scalable-solutions": "Disseny de solucions de software modulars i escalables.",
+                    "design-principles": "Aplicació de principis de disseny de software i bones pràctiques.",
+                    "debug": "Debugging i resolució de problemes en sistemes complexos.",
+                    "testing": "Fort enfocament en la qualitat del codi, proves i fiabilitat.",
+                    "agile": "Experiència treballant en entorns de desenvolupament Agile."
+                },
                 "soft-skills": {
                     "title": "Soft Skills",
                     "collaboration": "Col·laboració, treball en equip i empatia",
@@ -296,6 +305,15 @@
                     "devops": "DevOps",
                     "game-development": "Desarrollo de Videojuegos"
                 },
+                "professional-skills": {
+                    "title": "Competencias profesionales",
+                    "clean-code": "Desarrollo de código limpio, mantenible y bien estructurado.",
+                    "scalable-solutions": "Diseño de soluciones de software modulares y escalables.",
+                    "design-principles": "Aplicación de principios de diseño de software y buenas prácticas.",
+                    "debug": "Debugging y resolución de problemas en sistemas complejos.",
+                    "testing": "Fuerte enfoque en la calidad del código, pruebas y fiabilidad.",
+                    "agile": "Experiencia trabajando en entornos de desarrollo Agile."
+                },
                 "soft-skills": {
                     "title": "Soft Skills",
                     "collaboration": "Colaboración, trabajo en equipo y empatía",
@@ -451,6 +469,15 @@
                     "version-control": "Version Control",
                     "devops": "DevOps",
                     "game-development": "Game Development"
+                },
+                "professional-skills": {
+                    "title": "Professional Skills",
+                    "clean-code": "Writing clean, maintainable, and well-structured code.",
+                    "scalable-solutions": "Designing modular and scalable software solutions.",
+                    "design-principles": "Applying software design principles and best practices.",
+                    "debug": "Debugging and troubleshooting complex systems.",
+                    "testing": "Strong focus on code quality, testing, and reliability.",
+                    "agile": "Experience working in Agile development environments."
                 },
                 "soft-skills": {
                     "title": "Soft Skills",

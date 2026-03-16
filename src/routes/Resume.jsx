@@ -87,17 +87,16 @@ export default function Resume() {
           </ul>
         </div>
         <div>
-          <p className={styles.title}>{t("resume.soft-skills.title")}:</p>
+          <p className={styles.title}>
+            {t("resume.professional-skills.title")}:
+          </p>
           <ul>
-            <li>{t("resume.soft-skills.collaboration")}</li>
-            <li>{t("resume.soft-skills.communication")}</li>
-            <li>{t("resume.soft-skills.problem-solving")}</li>
-            <li>{t("resume.soft-skills.analytical-thinking")}</li>
-            <li>{t("resume.soft-skills.detail")}</li>
-            <li>{t("resume.soft-skills.adaptability")}</li>
-            <li>{t("resume.soft-skills.pressure")}</li>
-            <li>{t("resume.soft-skills.responsibility")}</li>
-            <li>{t("resume.soft-skills.learning")}</li>
+            <li>{t("resume.professional-skills.clean-code")}</li>
+            <li>{t("resume.professional-skills.scalable-solutions")}</li>
+            <li>{t("resume.professional-skills.design-principles")}</li>
+            <li>{t("resume.professional-skills.debug")}</li>
+            <li>{t("resume.professional-skills.testing")}</li>
+            <li>{t("resume.professional-skills.agile")}</li>
           </ul>
         </div>
       </div>

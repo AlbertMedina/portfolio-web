@@ -10,7 +10,7 @@ export default function Nav() {
     <div className={styles.header}>
       <div className={styles.about}>
         <p className={styles.name}>Albert Medina Cucurull</p>
-        <p className={styles.role}>{t("about.header")}</p>
+        <p className={styles.role}>{t("nav.headline")}</p>
       </div>
       <nav className={styles.navigation}>
         <NavLink

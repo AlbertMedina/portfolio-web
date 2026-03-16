@@ -2,14 +2,19 @@
     "ca": {
         "translation": {
             "nav": {
+                "headline": "Desenvolupador Backend | Competent en Frontend | Programador de Videojocs",
                 "home": "Inici",
                 "about": "Sobre mi",
                 "projects": "Projectes",
                 "resume": "Currículum"
             },
+            "home": {
+                "title": "Inici",
+                "headline": "Desenvolupador Backend | Competent en Frontend | Programador de Videojocs",
+                "button-text": "Explora tots els projectes"
+            },
             "about": {
                 "title": "Sobre mi",
-                "header": "Desenvolupador Backend | Competent en Frontend | Programador de Videojocs",
                 "text-1": "Desenvolupador Backend amb experiència professional en desenvolupament de software i una sòlida base en programació de videojocs.",
                 "text-2": "Em vaig graduar en Desenvolupament de Videojocs (Tecnocampus – UPF) i he treballat durant aproximadament tres anys com a programador de videojocs. He col·laborat en el desenvolupament de Racerloop, un joc free-to-play arcade de carreres de naus espacials per a PC desenvolupat amb Unity, on he treballat com a programador júnior dins d’un equip multidisciplinari. He contribuït en múltiples àrees del projecte, incloent la implementació de mecàniques de gameplay, sistemes, UI, eines, VFX, integració de so i resolució de bugs, col·laborant estretament amb altres departaments com el de disseny, art o àudio en un entorn de desenvolupament àgil. Aquesta experiència m'ha permès adquirir fortes habilitats de resolució de problemes, atenció al rendiment i capacitat per treballar en projectes tècnicament exigents.",
                 "text-3": "Recentment, he centrat el meu perfil cap al desenvolupament backend. M'he format en Java i Spring a IT Academy (Barcelona Activa - UPC), on he construït APIs REST, treballat amb bases de dades i desenvolupat aplicacions contenidoritzades amb Docker. També he estudiat desenvolupament frontend al Tecnocampus (UPF), cosa que em permet entendre tot el procés de desenvolupament i col·laborar fàcilment entre les diferents parts d’un projecte.",
@@ -167,14 +172,19 @@
     "es": {
         "translation": {
             "nav": {
+                "headline": "Desarrollador Backend | Competente en Frontend | Programador de Videojuegos",
                 "home": "Inicio",
                 "about": "Sobre mí",
                 "projects": "Proyectos",
                 "resume": "Currículum"
             },
+            "home": {
+                "title": "Inicio",
+                "headline": "Desarrollador Backend | Competente en Frontend | Programador de Videojuegos",
+                "button-text": "Explora todos los proyectos"
+            },
             "about": {
                 "title": "Sobre mí",
-                "header": "Desarrollador Backend | Competente en Frontend | Programador de Videojuegos",
                 "text-1": "Desarrollador Backend con experiencia profesional en desarrollo de software y una sólida base en programación de videojuegos.",
                 "text-2": "Me gradué en Desarrollo de Videojuegos (Tecnocampus – UPF) y he trabajado durante aproximadamente tres años como programador de videojuegos. He colaborado en el desarrollo de Racerloop, un juego free-to-play arcade de carreras de naves espaciales para PC desarrollado con Unity, donde he trabajado como programador junior dentro de un equipo multidisciplinar. He contribuido en múltiples áreas del proyecto, incluyendo la implementación de mecánicas de gameplay, sistemas, UI, herramientas, VFX, integración de sonido y corrección de bugs, colaborando estrechamente con otros departamentos como el de diseño, arte o audio en un entorno de desarrollo ágil. Esta experiencia me ha permitido adquirir sólidas habilidades de resolución de problemas, atención al rendimiento y capacidad para trabajar en proyectos técnicamente exigentes.",
                 "text-3": "Recientemente, he enfocado mi perfil hacia el desarrollo backend. Me he formado en Java y Spring en IT Academy (Barcelona Activa - UPC), donde he construido APIs REST, trabajado con bases de datos y desarrollado aplicaciones contenerizadas con Docker. También he estudiado desarrollo frontend en Tecnocampus (UPF), lo que me permite entender todo el proceso de desarrollo y colaborar fácilmente entre las distintas partes de un proyecto.",
@@ -332,14 +342,19 @@
     "en": {
         "translation": {
             "nav": {
+                "headline": "Backend Developer | Frontend Skilled | Game Programmer",
                 "home": "Home",
                 "about": "About",
                 "projects": "Projects",
                 "resume": "Resume"
             },
+            "home": {
+                "title": "Inicio",
+                "headline": "Backend Developer | Frontend Skilled | Game Programmer",
+                "button-text": "Explore all projects"
+            },
             "about": {
                 "title": "About",
-                "header": "Backend Developer | Frontend Skilled | Game Programmer",
                 "text-1": "Backend Developer with professional experience in software development and a strong background in game programming.",
                 "text-2": "I graduated in Video Game Development (Tecnocampus – UPF) and have worked for around three years as a game programmer. I have collaborated on the development of Racerloop, a free-to-play arcade spaceship racing game for PC developed in Unity, where I have worked as a junior programmer in a multidisciplinary team. I have contributed to multiple areas of the project, including the implementation of gameplay mechanics, systems, UI, tools, VFX, sound integration, and bug fixing, collaborating closely with other departments such as design, art, and audio in an agile development environment. This experience has helped me develop strong problem-solving skills, attention to performance, and the ability to work on technically demanding projects.",
                 "text-3": "Recently, I focused on expanding my profile towards backend development. I trained in Java and Spring at IT Academy (Barcelona Activa), where I built REST APIs, worked with databases, and developed containerized applications using Docker. I also studied frontend development at Tecnocampus (UPF), which allows me to understand the full development process and collaborate across different parts of a project.",

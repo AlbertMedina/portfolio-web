@@ -1,17 +1,15 @@
 .resume {
   width: 100%;
-  padding-top: 110px;
-  padding-bottom: 110px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 20px;
 }
 
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px 90px;
-  max-width: 80%;
+  max-width: 85%;
   text-align: justify;
   font-size: large;
   line-height: 1.6;

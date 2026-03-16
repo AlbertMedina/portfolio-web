@@ -5,7 +5,10 @@ export default function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const pageContent = document.querySelector(".page-content");
+    if (pageContent) {
+      pageContent.scrollTop = 0;
+    }
   }, [pathname]);
 
   return null;

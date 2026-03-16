@@ -1,7 +1,5 @@
 .project {
   width: 100%;
-  padding-top: 110px;
-  padding-bottom: 110px;
   display: flex;
   flex-direction: column;
   justify-content: center;

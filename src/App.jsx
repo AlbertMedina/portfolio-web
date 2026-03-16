@@ -31,30 +31,35 @@ function App() {
       <BrowserRouter basename="/portfolio-web/">
         <ScrollToTop />
         <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/projects/video-paradiso" element={<VideoParadiso />} />
-          <Route path="/projects/portfolio" element={<Portfolio />} />
-          <Route
-            path="/projects/chateau-maresme"
-            element={<ChateauMaresme />}
-          />
-          <Route path="/projects/racerloop" element={<Racerloop />} />
-          <Route
-            path="/projects/the-frightening-nightmare-of-little-eddy"
-            element={<Eddy />}
-          />
-          <Route
-            path="/projects/adaptive-difficulty-in-board-games"
-            element={<Minimax />}
-          />
-          <Route path="/projects/pit-fighters" element={<PitFighters />} />
-          <Route path="/projects/the-temple" element={<TheTemple />} />
-          <Route path="/projects/molai" element={<Molai />} />
-        </Routes>
+        <div className="page-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route
+              path="/projects/video-paradiso"
+              element={<VideoParadiso />}
+            />
+            <Route path="/projects/portfolio" element={<Portfolio />} />
+            <Route
+              path="/projects/chateau-maresme"
+              element={<ChateauMaresme />}
+            />
+            <Route path="/projects/racerloop" element={<Racerloop />} />
+            <Route
+              path="/projects/the-frightening-nightmare-of-little-eddy"
+              element={<Eddy />}
+            />
+            <Route
+              path="/projects/adaptive-difficulty-in-board-games"
+              element={<Minimax />}
+            />
+            <Route path="/projects/pit-fighters" element={<PitFighters />} />
+            <Route path="/projects/the-temple" element={<TheTemple />} />
+            <Route path="/projects/molai" element={<Molai />} />
+          </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
     </I18nextProvider>

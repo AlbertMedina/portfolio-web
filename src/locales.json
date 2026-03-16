@@ -11,7 +11,9 @@
             "home": {
                 "title": "Inici",
                 "headline": "Desenvolupador Backend | Competent en Frontend | Programador de Videojocs",
-                "button-text": "Explora tots els projectes"
+                "about-button": "Sobre mi",
+                "projects-button": "Explora tots els projectes",
+                "resume-button": "Consulta el meu currículum"
             },
             "about": {
                 "title": "Sobre mi",
@@ -181,7 +183,9 @@
             "home": {
                 "title": "Inicio",
                 "headline": "Desarrollador Backend | Competente en Frontend | Programador de Videojuegos",
-                "button-text": "Explora todos los proyectos"
+                "about-button": "Sobre mí",
+                "projects-button": "Explora todos los proyectos",
+                "resume-button": "Consulta mi currículum"
             },
             "about": {
                 "title": "Sobre mí",
@@ -349,9 +353,11 @@
                 "resume": "Resume"
             },
             "home": {
-                "title": "Inicio",
+                "title": "Home",
                 "headline": "Backend Developer | Frontend Skilled | Game Programmer",
-                "button-text": "Explore all projects"
+                "about-button": "About me",
+                "projects-button": "Explore all projects",
+                "resume-button": "Check my resume"
             },
             "about": {
                 "title": "About",

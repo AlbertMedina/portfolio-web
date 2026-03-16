@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
 
 import CarouselButton from "../components/home/CarouselButton";
+import ImageButton from "../components/home/ImageButton";
 
 import { projects } from "../data/projects";
 
@@ -18,12 +19,26 @@ export default function Home() {
         <p className={styles.headline}>{t("home.headline")}</p>
       </div>
       <div className={styles.buttons}>
-        <CarouselButton
-          images={projects.map((p) => p.image)}
+        <ImageButton
+          image={projects[0].image}
           width={400}
           height={250}
-          text={t("home.button-text")}
+          text={t("home.about-button")}
+          onClick={() => navigate("/about")}
+        />
+        <CarouselButton
+          images={projects.map((p) => p.image)}
+          width={600}
+          height={400}
+          text={t("home.projects-button")}
           onClick={() => navigate("/projects")}
+        />
+        <ImageButton
+          image={projects[0].image}
+          width={400}
+          height={250}
+          text={t("home.resume-button")}
+          onClick={() => navigate("/about")}
         />
       </div>
     </section>

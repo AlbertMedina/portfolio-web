@@ -1,13 +1,8 @@
-.carousel {
+.button {
   position: relative;
   overflow: hidden;
   border-radius: 22px;
   cursor: pointer;
-}
-
-.inner {
-  display: flex;
-  height: 100%;
 }
 
 .image {
@@ -25,7 +20,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: bold;
   text-align: center;
   color: #ffffff;
@@ -34,7 +29,7 @@
   transition: opacity 0.2s ease, background-color 0.2s ease;
 }
 
-.carousel:hover .overlay {
+.button:hover .overlay {
   background-color: rgba(0, 0, 0, 0.75);
   opacity: 1;
 }

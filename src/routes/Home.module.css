@@ -29,6 +29,6 @@
 
 .buttons {
   display: flex;
-  align-items: center;
-  gap: 100px;
+  align-items: end;
+  gap: 140px;
 }

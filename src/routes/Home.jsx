@@ -8,6 +8,9 @@ import ImageButton from "../components/home/ImageButton";
 
 import { projects } from "../data/projects";
 
+import about from "../assets/images/home/about.webp";
+import resume from "../assets/images/home/resume.webp";
+
 export default function Home() {
   const { t } = useTranslation();
   const navigate = useNavigate();
@@ -20,9 +23,9 @@ export default function Home() {
       </div>
       <div className={styles.buttons}>
         <ImageButton
-          image={projects[0].image}
-          width={400}
-          height={250}
+          image={about}
+          width={200}
+          height={300}
           text={t("home.about-button")}
           onClick={() => navigate("/about")}
         />
@@ -34,11 +37,11 @@ export default function Home() {
           onClick={() => navigate("/projects")}
         />
         <ImageButton
-          image={projects[0].image}
-          width={400}
-          height={250}
+          image={resume}
+          width={200}
+          height={300}
           text={t("home.resume-button")}
-          onClick={() => navigate("/about")}
+          onClick={() => navigate("/resume")}
         />
       </div>
     </section>

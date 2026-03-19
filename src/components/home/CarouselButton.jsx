@@ -12,7 +12,6 @@ export default function CarouselButton({
 }) {
   const [index, setIndex] = useState(0);
   const [transition, setTransition] = useState(true);
-
   const innerRef = useRef(null);
 
   const extended = [...images, images[0]];
@@ -20,30 +19,49 @@ export default function CarouselButton({
   useEffect(() => {
     if (images.length === 0) return;
 
-    const id = setInterval(() => {
-      setIndex((i) => i + 1);
-    }, intervalMs);
+    const tick = () => {
+      if (document.hidden) return;
 
-    return () => clearInterval(id);
+      setIndex((prevIndex) => {
+        if (prevIndex >= images.length) return prevIndex;
+        return prevIndex + 1;
+      });
+    };
+
+    const id = setInterval(tick, intervalMs);
+
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        clearInterval(id);
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    return () => {
+      clearInterval(id);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
   }, [intervalMs, images.length]);
 
   useEffect(() => {
     const el = innerRef.current;
+    if (!el) return;
 
     const onEnd = () => {
-      if (index === images.length) {
+      if (index >= images.length) {
         setTransition(false);
         setIndex(0);
       }
     };
 
     el.addEventListener("transitionend", onEnd);
-
     return () => el.removeEventListener("transitionend", onEnd);
   }, [index, images.length]);
 
   useEffect(() => {
     if (!transition) {
+      const _ = innerRef.current?.offsetHeight;
       requestAnimationFrame(() => {
         setTransition(true);
       });
@@ -65,8 +83,11 @@ export default function CarouselButton({
           <img
             key={i}
             src={image}
+            loading={i === 0 ? "eager" : "lazy"}
+            fetchpriority={i === 0 ? "high" : "low"}
             className={styles.image}
             style={{ width: width, height: height }}
+            alt={`Project ${i}`}
           />
         ))}
       </div>

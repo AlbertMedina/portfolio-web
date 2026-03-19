@@ -12,37 +12,27 @@ export default function CarouselButton({
 }) {
   const [index, setIndex] = useState(0);
   const [transition, setTransition] = useState(true);
+  const [isTabActive, setIsTabActive] = useState(true);
   const innerRef = useRef(null);
 
   const extended = [...images, images[0]];
 
   useEffect(() => {
-    if (images.length === 0) return;
+    const handleVisibility = () => setIsTabActive(!document.hidden);
+    document.addEventListener("visibilitychange", handleVisibility);
+    return () =>
+      document.removeEventListener("visibilitychange", handleVisibility);
+  }, []);
 
-    const tick = () => {
-      if (document.hidden) return;
+  useEffect(() => {
+    if (images.length === 0 || !isTabActive) return;
 
-      setIndex((prevIndex) => {
-        if (prevIndex >= images.length) return prevIndex;
-        return prevIndex + 1;
-      });
-    };
+    const id = setInterval(() => {
+      setIndex((prev) => (prev >= images.length ? prev : prev + 1));
+    }, intervalMs);
 
-    const id = setInterval(tick, intervalMs);
-
-    const handleVisibilityChange = () => {
-      if (document.hidden) {
-        clearInterval(id);
-      }
-    };
-
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-
-    return () => {
-      clearInterval(id);
-      document.removeEventListener("visibilitychange", handleVisibilityChange);
-    };
-  }, [intervalMs, images.length]);
+    return () => clearInterval(id);
+  }, [intervalMs, images.length, isTabActive]);
 
   useEffect(() => {
     const el = innerRef.current;

@@ -3,8 +3,6 @@ import styles from "./CarouselButton.module.css";
 
 export default function CarouselButton({
   images = [],
-  width = 600,
-  height = 400,
   intervalMs = 2000,
   transitionMs = 500,
   text,
@@ -16,6 +14,7 @@ export default function CarouselButton({
   const innerRef = useRef(null);
 
   const extended = [...images, images[0]];
+  const totalImages = extended.length;
 
   useEffect(() => {
     const handleVisibility = () => setIsTabActive(!document.hidden);
@@ -58,27 +57,32 @@ export default function CarouselButton({
     }
   }, [transition]);
 
+  const stepSize = 100 / totalImages;
+
   return (
-    <div className={styles.carousel} style={{ width: width }} onClick={onClick}>
+    <div className={styles.carousel} onClick={onClick}>
       <div
         ref={innerRef}
         className={styles.inner}
         style={{
-          transform: `translateX(-${index * width}px)`,
+          width: `${totalImages * 100}%`,
+          transform: `translateX(-${index * stepSize}%)`,
           transition: transition ? `transform ${transitionMs}ms ease` : "none",
-          width: extended.length * width,
         }}
       >
         {extended.map((image, i) => (
-          <img
+          <div
             key={i}
-            src={image}
-            loading={i === 0 ? "eager" : "lazy"}
-            fetchPriority={i === 0 ? "high" : "low"}
-            className={styles.image}
-            style={{ width: width, height: height }}
-            alt={`Project ${i}`}
-          />
+            className={styles.imageWrapper}
+            style={{ width: `${stepSize}%` }}
+          >
+            <img
+              src={image}
+              loading={i === 0 ? "eager" : "lazy"}
+              className={styles.image}
+              alt={`Project ${i}`}
+            />
+          </div>
         ))}
       </div>
       {text && <div className={styles.overlay}>{text}</div>}

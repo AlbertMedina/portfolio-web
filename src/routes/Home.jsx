@@ -22,27 +22,27 @@ export default function Home() {
         <p className={styles.headline}>{t("home.headline")}</p>
       </div>
       <div className={styles.buttons}>
-        <ImageButton
-          image={about}
-          width={200}
-          height={300}
-          text={t("home.about-button")}
-          onClick={() => navigate("/about")}
-        />
-        <CarouselButton
-          images={projects.map((p) => p.image)}
-          width={600}
-          height={400}
-          text={t("home.projects-button")}
-          onClick={() => navigate("/projects")}
-        />
-        <ImageButton
-          image={resume}
-          width={200}
-          height={300}
-          text={t("home.resume-button")}
-          onClick={() => navigate("/resume")}
-        />
+        <div className={styles.button}>
+          <ImageButton
+            image={about}
+            text={t("home.about-button")}
+            onClick={() => navigate("/about")}
+          />
+        </div>
+        <div className={styles.carousel}>
+          <CarouselButton
+            images={projects.map((p) => p.image)}
+            text={t("home.projects-button")}
+            onClick={() => navigate("/projects")}
+          />
+        </div>
+        <div className={styles.button}>
+          <ImageButton
+            image={resume}
+            text={t("home.resume-button")}
+            onClick={() => navigate("/resume")}
+          />
+        </div>
       </div>
     </section>
   );

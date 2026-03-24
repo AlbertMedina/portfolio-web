@@ -74,7 +74,7 @@ export default function CarouselButton({
             key={i}
             src={image}
             loading={i === 0 ? "eager" : "lazy"}
-            fetchpriority={i === 0 ? "high" : "low"}
+            fetchPriority={i === 0 ? "high" : "low"}
             className={styles.image}
             style={{ width: width, height: height }}
             alt={`Project ${i}`}

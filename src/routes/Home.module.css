@@ -43,10 +43,45 @@
 
 @media (max-width: 768px) {
   .home {
-    gap: 45px;
+    gap: 30px;
   }
 
   .name {
     font-size: 40px;
+  }
+
+  .headline {
+    font-size: 20px;
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .buttons > *:nth-child(2) {
+    grid-column: span 2;
+    order: 1;
+    height: 220px;
+  }
+
+  .buttons > *:nth-child(1) {
+    order: 2;
+    width: 100%;
+    height: 220px;
+  }
+
+  .buttons > *:nth-child(3) {
+    order: 3;
+    width: 100%;
+    height: 220px;
+  }
+
+  .carousel,
+  .button {
+    width: 100%;
   }
 }

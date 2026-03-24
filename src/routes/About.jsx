@@ -12,7 +12,6 @@ export default function About() {
         <img
           src={picture}
           alt={"Albert Medina Cucurull"}
-          width={350}
           className={styles.picture}
         />
         <div className={styles.text}>

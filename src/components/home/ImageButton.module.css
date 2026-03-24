@@ -35,3 +35,9 @@
   background-color: rgba(0, 0, 0, 0.75);
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .overlay {
+    font-size: 18px;
+  }
+}

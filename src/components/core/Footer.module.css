@@ -82,9 +82,11 @@
   .footer {
     height: 60px;
     padding: 0 10px;
+    justify-content: start;
   }
 
   .info {
+    align-items: start;
     gap: 8px;
   }
 

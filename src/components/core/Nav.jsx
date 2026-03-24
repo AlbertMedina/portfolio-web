@@ -1,16 +1,29 @@
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
+import { useState, useEffect } from "react";
+
 import styles from "./Nav.module.css";
 
 export default function Nav() {
   const { t } = useTranslation();
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsSmallScreen(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <div className={styles.header}>
       <div className={styles.about}>
-        <p className={styles.name}>Albert Medina Cucurull</p>
-        <p className={styles.role}>{t("nav.headline")}</p>
+        <p className={styles.name}>
+          {isSmallScreen ? "Albert M. C." : "Albert Medina Cucurull"}
+        </p>
+        <p className={styles.role}>
+          {isSmallScreen ? t("nav.headline-short") : t("nav.headline")}
+        </p>
       </div>
       <nav className={styles.navigation}>
         <NavLink

@@ -3,6 +3,7 @@
         "translation": {
             "nav": {
                 "headline": "Desenvolupador de Software | Backend, Frontend i Desenvolupament de Videojocs",
+                "headline-short": "Desenvolupador de Software",
                 "home": "Inici",
                 "about": "Sobre mi",
                 "projects": "Projectes",
@@ -175,6 +176,7 @@
         "translation": {
             "nav": {
                 "headline": "Desarrollador de Software | Backend, Frontend y Desarrollo de Videojuegos",
+                "headline-short": "Desarrollador de Software",
                 "home": "Inicio",
                 "about": "Sobre mí",
                 "projects": "Proyectos",
@@ -347,6 +349,7 @@
         "translation": {
             "nav": {
                 "headline": "Software Developer | Backend, Frontend & Game Development",
+                "headline-short": "Software Developer",
                 "home": "Home",
                 "about": "About",
                 "projects": "Projects",

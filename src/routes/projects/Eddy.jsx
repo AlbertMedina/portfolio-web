@@ -11,12 +11,12 @@ export default function Eddy() {
   return (
     <section className={styles.project}>
       <div className={styles.content}>
-        <div className={styles.title}>
-          <div className={styles.titleLeft}>
+        <div className={styles.header}>
+          <div className={styles.branding}>
             <img src={logo} alt={t("projects.eddy.title")} />
-            <div className={styles.titleText}>
-              <h1>{t("projects.eddy.title")}</h1>
-              <h2>{t("projects.eddy.years")}</h2>
+            <div>
+              <h1 className={styles.title}>{t("projects.eddy.title")}</h1>
+              <p className={styles.timeline}>{t("projects.eddy.years")}</p>
             </div>
           </div>
           <div className={styles.buttons}>

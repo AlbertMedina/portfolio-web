@@ -10,12 +10,12 @@ export default function Molai() {
   return (
     <section className={styles.project}>
       <div className={styles.content}>
-        <div className={styles.title}>
-          <div className={styles.titleLeft}>
+        <div className={styles.header}>
+          <div className={styles.branding}>
             <img src={logo} alt={t("projects.molai.title")} />
-            <div className={styles.titleText}>
-              <h1>{t("projects.molai.title")}</h1>
-              <h2>{t("projects.molai.years")}</h2>
+            <div>
+              <h1 className={styles.title}>{t("projects.molai.title")}</h1>
+              <p className={styles.timeline}>{t("projects.molai.years")}</p>
             </div>
           </div>
           <div className={styles.buttons}></div>

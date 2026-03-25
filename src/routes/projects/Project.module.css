@@ -15,31 +15,33 @@
   gap: 30px;
 }
 
-.title {
+.header {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.titleLeft {
+.branding {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-.title h1 {
+.title {
   margin: 0;
   font-size: 30px;
+  font-weight: bold;
 }
 
-.title h2 {
+.timeline {
   margin: 0;
   font-size: 15px;
+  font-weight: bold;
   color: #555555;
 }
 
-.title img {
+.branding img {
   width: 60px;
   height: 60px;
   border-radius: 22px;

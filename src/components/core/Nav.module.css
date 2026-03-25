@@ -26,6 +26,7 @@
 
 .name {
   font-size: 24px;
+  white-space: nowrap;
 }
 
 .role {
@@ -43,6 +44,7 @@
 
 .navigation a {
   display: inline-block;
+  white-space: nowrap;
   color: #ffffff;
   text-decoration: none;
   transition: color 0.2s ease-in-out, padding 0.3s ease-in-out;
@@ -90,6 +92,11 @@
   .header {
     height: 60px;
     padding: 0 10px;
+    gap: 10px;
+  }
+
+  .about {
+    gap: 3px;
   }
 
   .name {

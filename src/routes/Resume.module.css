@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
 }
 
 .content {
@@ -27,4 +26,16 @@
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
 }

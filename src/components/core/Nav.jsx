@@ -19,7 +19,7 @@ export default function Nav() {
     <div className={styles.header}>
       <div className={styles.about}>
         <p className={styles.name}>
-          {isSmallScreen ? "Albert M. C." : "Albert Medina Cucurull"}
+          {isSmallScreen ? "Albert" : "Albert Medina Cucurull"}
         </p>
         <p className={styles.role}>
           {isSmallScreen ? t("nav.headline-short") : t("nav.headline")}

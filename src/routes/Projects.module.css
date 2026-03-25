@@ -7,12 +7,6 @@
   gap: 30px;
 }
 
-.content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 45px 75px;
-}
-
 .filters {
   display: flex;
   justify-content: center;
@@ -22,6 +16,7 @@
 .filters button {
   cursor: pointer;
   padding: 8px 15px;
+  white-space: nowrap;
   background-color: none;
   border: 1px solid #4b4b4b;
   border-radius: 18px;
@@ -40,4 +35,44 @@
 .filters button.active {
   background: #4b4b4b;
   color: #ffffff;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 45px 75px;
+}
+
+.button {
+  aspect-ratio: 3 / 2;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    gap: 20px;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .filters {
+    gap: 8px;
+  }
+
+  .filters button {
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 12px;
+  }
 }

@@ -47,13 +47,15 @@ export default function Projects() {
       </div>
       <div className={styles.content}>
         {filteredProjects.map((p) => (
-          <ProjectButton
-            key={p.route}
-            title={t(p.titleKey)}
-            year={t(p.yearKey)}
-            image={p.image}
-            onClick={() => navigate(p.route)}
-          />
+          <div className={styles.button}>
+            <ProjectButton
+              key={p.route}
+              title={t(p.titleKey)}
+              year={t(p.yearKey)}
+              image={p.image}
+              onClick={() => navigate(p.route)}
+            />
+          </div>
         ))}
       </div>
     </section>

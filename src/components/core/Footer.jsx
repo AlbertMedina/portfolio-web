@@ -10,10 +10,6 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.info}>
-        <a href="mailto:albertmecu@gmail.com" className={styles.mail}>
-          albertmecu@gmail.com
-        </a>
-
         <div className={styles.logos}>
           <a
             href="https://github.com/AlbertMedina"
@@ -22,7 +18,6 @@ export default function Footer() {
           >
             <img src={githubLogo} alt="Albert Medina Cucurull GitHub" />
           </a>
-
           <a
             href="https://www.linkedin.com/in/albert-medina-cucurull/"
             target="_blank"
@@ -31,6 +26,9 @@ export default function Footer() {
             <img src={linkedinLogo} alt="Albert Medina Cucurull LinkedIn" />
           </a>
         </div>
+        <a href="mailto:albertmecu@gmail.com" className={styles.mail}>
+          albertmecu@gmail.com
+        </a>
       </div>
       <form>
         <select

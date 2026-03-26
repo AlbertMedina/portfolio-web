@@ -105,22 +105,23 @@
 }
 
 .video {
-  width: 900px;
-  margin-top: 12px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .video iframe {
+  width: 100%;
   aspect-ratio: 16 / 9;
   border-radius: 15px;
 }
 
 .picture {
-  height: 520px;
-  margin-top: 12px;
+  width: 100%;
+  max-width: 1100px;
 }
 
 .picture img {
-  height: 100%;
+  width: 100%;
   border-radius: 15px;
   object-fit: cover;
 }
@@ -176,7 +177,8 @@
   }
 
   .info img {
-    border-radius: 18px;
+    height: auto;
+    border-radius: 15px;
   }
 
   .text {
@@ -185,5 +187,14 @@
 
   .text p {
     font-size: 16px;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .picture {
+    width: 100%;
+    max-width: 570px;
   }
 }

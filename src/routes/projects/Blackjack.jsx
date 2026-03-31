@@ -3,7 +3,8 @@ import { useTranslation } from "react-i18next";
 import styles from "./Project.module.css";
 
 import logo from "../../assets/images/projects/blackjack/logo.webp";
-import image1 from "../../assets/images/projects/minimax/image-1.webp";
+import image1 from "../../assets/images/projects/blackjack/thumbnail.webp";
+import image2 from "../../assets/images/projects/blackjack/image-2.webp";
 
 export default function Blackjack() {
   const { t } = useTranslation();
@@ -35,15 +36,8 @@ export default function Blackjack() {
             <p>{t("projects.blackjack.text-2")}</p>
           </div>
         </div>
-        <div className={styles.video}>
-          <iframe
-            src="https://www.youtube.com/embed/e4jVKkc9CVo?si=KOHxUIYOaTAC-pMe"
-            title="Adaptive Difficulty In Board Games"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+        <div className={styles.picture}>
+          <img src={image2} alt={t("projects.chateau.title")} />
         </div>
       </div>
     </section>

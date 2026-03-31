@@ -12,10 +12,10 @@ export default function Blackjack() {
       <div className={styles.content}>
         <div className={styles.header}>
           <div className={styles.branding}>
-            <img src={logo} alt={t("projects.minimax.title")} />
+            <img src={logo} alt={t("projects.blackjack.title")} />
             <div>
-              <h1 className={styles.title}>{t("projects.minimax.title")}</h1>
-              <p className={styles.timeline}>{t("projects.minimax.years")}</p>
+              <h1 className={styles.title}>{t("projects.blackjack.title")}</h1>
+              <p className={styles.timeline}>{t("projects.blackjack.years")}</p>
             </div>
           </div>
           <div className={styles.buttons}>
@@ -24,15 +24,15 @@ export default function Blackjack() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t("projects.minimax.github-button")}
+              {t("projects.blackjack.github-button")}
             </a>
           </div>
         </div>
         <div className={styles.info}>
-          <img src={image1} alt={t("projects.minimax.title")} />
+          <img src={image1} alt={t("projects.blackjack.title")} />
           <div className={styles.text}>
-            <p>{t("projects.minimax.text-1")}</p>
-            <p>{t("projects.minimax.text-2")}</p>
+            <p>{t("projects.blackjack.text-1")}</p>
+            <p>{t("projects.blackjack.text-2")}</p>
           </div>
         </div>
         <div className={styles.video}>

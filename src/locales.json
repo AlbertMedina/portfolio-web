@@ -41,6 +41,13 @@
                     "github-backend-button": "GitHub (API)",
                     "github-frontend-button": "GitHub (Frontend)"
                 },
+                "blackjack": {
+                    "title": "Blackjack API",
+                    "years": "2026",
+                    "text-1": "Aquest projecte implementa una experiència digital de Blackjack a través d'una API funcional. L'aplicació gestiona jugadors i sessions de joc, aplicant les regles oficials i les accions de la banca mentre calcula mans i puntuacions.",
+                    "text-2": "El backend està construït amb Java 21, Spring Boot i WebFlux, utilitzant una arquitectura per capes i programació reactiva. Disposa d'una estratègia de persistència dual amb MongoDB per a les sessions de joc i MySQL per als jugadors. El projecte inclou tests amb JUnit/Mockito, és Docker-ready i ofereix documentació amb Swagger per a una interacció fàcil amb l'API.",
+                    "github-button": "GitHub"
+                },
                 "portfolio": {
                     "title": "Portfolio Web",
                     "years": "2026",
@@ -214,6 +221,13 @@
                     "github-backend-button": "GitHub (API)",
                     "github-frontend-button": "GitHub (Frontend)"
                 },
+                "blackjack": {
+                    "title": "Blackjack API",
+                    "years": "2026",
+                    "text-1": "Este proyecto implementa una experiencia digital de Blackjack a través de una API funcional. La aplicación gestiona jugadores y sesiones de juego, aplicando las reglas oficiales y las acciones de la banca mientras calcula manos y puntuaciones.",
+                    "text-2": "El backend está construido con Java 21, Spring Boot y WebFlux, utilizando una arquitectura por capas y programación reactiva. Cuenta con una estrategia de persistencia dual con MongoDB para las sesiones de juego y MySQL para los jugadores. El proyecto incluye tests con JUnit/Mockito, es Docker-ready y ofrece documentación con Swagger para una interacción fácil con la API.",
+                    "github-button": "GitHub"
+                },
                 "portfolio": {
                     "title": "Portfolio Web",
                     "years": "2026",
@@ -386,6 +400,13 @@
                     "text-3": "The frontend is a React and Vite app styled with Material UI. Users can browse movies, manage rentals, favorites, and reviews, communicating securely with the backend via JWT.",
                     "github-backend-button": "GitHub (API)",
                     "github-frontend-button": "GitHub (Frontend)"
+                },
+                "blackjack": {
+                    "title": "Blackjack API",
+                    "years": "2026",
+                    "text-1": "This project implements a digital Blackjack experience through a functional and interactive API. The application manages real-time game sessions and players, enforcing official rules and dealer actions while calculating hands and scores instantly.",
+                    "text-2": "The backend is built with Java 21, Spring Boot, and WebFlux, using a layered architecture and reactive programming. It features a dual-persistence strategy with MongoDB for game sessions and MySQL for player rankings. The project includes JUnit/Mockito tests, is Docker-ready, and provides Swagger documentation for easy API interaction.",
+                    "github-button": "GitHub"
                 },
                 "portfolio": {
                     "title": "Portfolio Web",

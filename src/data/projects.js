@@ -1,4 +1,5 @@
 import paradiso from "../assets/images/projects/paradiso/thumbnail.webp";
+import blackjack from "../assets/images/projects/blackjack/thumbnail.webp";
 import portfolio from "../assets/images/projects/portfolio/thumbnail.webp";
 import chateau from "../assets/images/projects/chateau/thumbnail.webp";
 
@@ -18,11 +19,11 @@ export const projects = [
         category: ["backend", "frontend"],
     },
     {
-        titleKey: "projects.portfolio.title",
-        yearKey: "projects.portfolio.years",
-        image: portfolio,
-        route: "/projects/portfolio",
-        category: ["frontend"],
+        titleKey: "projects.blackjack.title",
+        yearKey: "projects.blackjack.years",
+        image: blackjack,
+        route: "/projects/blackjack",
+        category: ["backend"],
     },
     {
         titleKey: "projects.racerloop.title",
@@ -50,6 +51,13 @@ export const projects = [
         yearKey: "projects.chateau.years",
         image: chateau,
         route: "/projects/chateau-maresme",
+        category: ["frontend"],
+    },
+    {
+        titleKey: "projects.portfolio.title",
+        yearKey: "projects.portfolio.years",
+        image: portfolio,
+        route: "/projects/portfolio",
         category: ["frontend"],
     },
     {

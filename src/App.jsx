@@ -15,6 +15,7 @@ import Projects from "./routes/Projects";
 import Resume from "./routes/Resume";
 
 import VideoParadiso from "./routes/projects/VideoParadiso";
+import Blackjack from "./routes/projects/Blackjack";
 import Portfolio from "./routes/projects/Portfolio";
 import ChateauMaresme from "./routes/projects/ChateauMaresme";
 
@@ -41,7 +42,7 @@ function App() {
               path="/projects/video-paradiso"
               element={<VideoParadiso />}
             />
-            <Route path="/projects/portfolio" element={<Portfolio />} />
+            <Route path="/projects/blackjack" element={<Blackjack />} />
             <Route
               path="/projects/chateau-maresme"
               element={<ChateauMaresme />}
@@ -55,6 +56,7 @@ function App() {
               path="/projects/adaptive-difficulty-in-board-games"
               element={<Minimax />}
             />
+            <Route path="/projects/portfolio" element={<Portfolio />} />
             <Route path="/projects/pit-fighters" element={<PitFighters />} />
             <Route path="/projects/the-temple" element={<TheTemple />} />
             <Route path="/projects/molai" element={<Molai />} />

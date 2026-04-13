@@ -105,7 +105,7 @@ export default function Resume() {
         </div>
       </div>
       <div className={styles.download}>
-        <a href={CVFile} download className={styles.button}>
+        <a href={CVFile} download="CV_Albert Medina_Software Developer">
           <FaDownload size={24} />
         </a>
       </div>

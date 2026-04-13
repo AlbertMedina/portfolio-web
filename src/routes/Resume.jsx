@@ -1,5 +1,9 @@
 import { useTranslation } from "react-i18next";
 
+import { FaDownload } from "react-icons/fa";
+
+import CVFile from "../assets/documents/CV_Albert Medina_Software Developer.pdf";
+
 import styles from "./Resume.module.css";
 
 export default function Resume() {
@@ -99,6 +103,11 @@ export default function Resume() {
             <li>{t("resume.professional-skills.agile")}</li>
           </ul>
         </div>
+      </div>
+      <div className={styles.download}>
+        <a href={CVFile} download className={styles.button}>
+          <FaDownload size={24} />
+        </a>
       </div>
     </section>
   );

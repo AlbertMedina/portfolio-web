@@ -117,7 +117,7 @@
                     "years": "2026",
                     "text-1": "Aquest projecte és un portfoli web per a una professional del sector del màrqueting, desenvolupat amb React i Vite . La web s'ha elaborat a partir del disseny proposat, aconseguint un resultat personalitzat i adaptat als requeriments.",
                     "text-2": "Està desplegat a Vercel, garantint un manteniment àgil i reflectint de forma automàtica qualsevol millora o canvi que es puja a producció.",
-                    "text-3": "Amb rutes per a cada secció i disponible en diversos idiomes.",
+                    "text-3": "Amb rutes per a cada secció, responsive i disponible en diversos idiomes.",
                     "website-button": "Pàgina web"
                 }
             },
@@ -305,7 +305,7 @@
                     "years": "2026",
                     "text-1": "Este proyecto es un portafolio web para una profesional del sector del marketing, desarrollado con React y Vite. La web se ha elaborado a partir del diseño propuesto, logrando un resultado personalizado y adaptado a los requerimientos.",
                     "text-2": "Está desplegado en Vercel, garantizando un mantenimiento ágil y reflejando de forma automática cualquier mejora o cambio que se sube a producción.",
-                    "text-3": "Con rutas para cada sección y disponible en varios idiomas.",
+                    "text-3": "Con rutas para cada sección, responsive y disponible en varios idiomas.",
                     "website-button": "Página web"
                 }
             },
@@ -493,7 +493,7 @@
                     "years": "2026",
                     "text-1": "This project is a portfolio web for a marketing professional, developed with React and Vite. The website has been built based on the proposed design, achieving a personalized result tailored to the requirements.",
                     "text-2": "It is deployed on Vercel, ensuring agile maintenance and automatically reflecting any improvement or change pushed to production.",
-                    "text-3": "With routes for each section and available in multiple languages.",
+                    "text-3": "With routes for each section, responsive and available in multiple languages.",
                     "website-button": "Website"
                 }
             },

@@ -111,6 +111,14 @@
                     "text-2": "Vaig ser el principal programador de l’equip, implementant els sistemes centrals de jugabilitat i gestionant la majoria de tasques de programació del joc.",
                     "text-3": "El meu treball incloïa els controls del jugador, el comportament dels enemics, les mecàniques de combat i la lògica general de jugabilitat.",
                     "itchio-button": "Itch.io"
+                },
+                "portfolio-marketing": {
+                    "title": "Portfolio Web - Màrqueting",
+                    "years": "2026",
+                    "text-1": "Aquest projecte és un portfoli web per a una professional del sector del màrqueting, desenvolupat amb React i Vite . La web s'ha elaborat a partir del disseny proposat, aconseguint un resultat personalitzat i adaptat als requeriments.",
+                    "text-2": "Està desplegat a Vercel, garantint un manteniment àgil i reflectint de forma automàtica qualsevol millora o canvi que es puja a producció.",
+                    "text-3": "Amb rutes per a cada secció i disponible en diversos idiomes.",
+                    "website-button": "Pàgina web"
                 }
             },
             "resume": {
@@ -291,6 +299,14 @@
                     "text-2": "Fui el programador principal del equipo, implementando los sistemas centrales de jugabilidad y gestionando la mayoría de tareas de programación del juego.",
                     "text-3": "Mi trabajo incluía los controles del jugador, el comportamiento de los enemigos, las mecánicas de combate y la lógica general de jugabilidad.",
                     "itchio-button": "Itch.io"
+                },
+                "portfolio-marketing": {
+                    "title": "Portfolio Web - Marketing",
+                    "years": "2026",
+                    "text-1": "Este proyecto es un portafolio web para una profesional del sector del marketing, desarrollado con React y Vite. La web se ha elaborado a partir del diseño propuesto, logrando un resultado personalizado y adaptado a los requerimientos.",
+                    "text-2": "Está desplegado en Vercel, garantizando un mantenimiento ágil y reflejando de forma automática cualquier mejora o cambio que se sube a producción.",
+                    "text-3": "Con rutas para cada sección y disponible en varios idiomas.",
+                    "website-button": "Página web"
                 }
             },
             "resume": {
@@ -471,6 +487,14 @@
                     "text-2": "I was the main programmer on the team, implementing the core gameplay systems and handling most of the game programming tasks.",
                     "text-3": "My work included player controls, enemy behaviour, combat mechanics, and general gameplay logic.",
                     "itchio-button": "Itch.io"
+                },
+                "portfolio-marketing": {
+                    "title": "Portfolio Web - Marketing",
+                    "years": "2026",
+                    "text-1": "This project is a portfolio web for a marketing professional, developed with React and Vite. The website has been built based on the proposed design, achieving a personalized result tailored to the requirements.",
+                    "text-2": "It is deployed on Vercel, ensuring agile maintenance and automatically reflecting any improvement or change pushed to production.",
+                    "text-3": "With routes for each section and available in multiple languages.",
+                    "website-button": "Website"
                 }
             },
             "resume": {

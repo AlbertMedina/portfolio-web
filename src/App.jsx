@@ -18,6 +18,7 @@ import VideoParadiso from "./routes/projects/VideoParadiso";
 import Blackjack from "./routes/projects/Blackjack";
 import Portfolio from "./routes/projects/Portfolio";
 import ChateauMaresme from "./routes/projects/ChateauMaresme";
+import PortfolioMarketing from "./routes/projects/PortfolioMarketing";
 
 import Racerloop from "./routes/projects/Racerloop";
 import Eddy from "./routes/projects/Eddy";
@@ -60,6 +61,10 @@ function App() {
             <Route path="/projects/pit-fighters" element={<PitFighters />} />
             <Route path="/projects/the-temple" element={<TheTemple />} />
             <Route path="/projects/molai" element={<Molai />} />
+            <Route
+              path="/projects/portfolio-marketing"
+              element={<PortfolioMarketing />}
+            />
           </Routes>
         </div>
         <Footer />

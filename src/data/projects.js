@@ -2,6 +2,7 @@ import paradiso from "../assets/images/projects/paradiso/thumbnail.webp";
 import blackjack from "../assets/images/projects/blackjack/thumbnail.webp";
 import portfolio from "../assets/images/projects/portfolio/thumbnail.webp";
 import chateau from "../assets/images/projects/chateau/thumbnail.webp";
+import portfolioMarketing from "../assets/images/projects/portfolio-marketing/thumbnail.webp";
 
 import racerloop from "../assets/images/projects/racerloop/thumbnail.webp";
 import eddy from "../assets/images/projects/eddy/thumbnail.webp";
@@ -45,6 +46,13 @@ export const projects = [
         image: minimax,
         route: "/projects/adaptive-difficulty-in-board-games",
         category: ["gamedev"],
+    },
+    {
+        titleKey: "projects.portfolio-marketing.title",
+        yearKey: "projects.portfolio-marketing.years",
+        image: portfolioMarketing,
+        route: "/projects/portfolio-marketing",
+        category: ["frontend"],
     },
     {
         titleKey: "projects.chateau.title",

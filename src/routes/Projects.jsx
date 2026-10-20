@@ -47,9 +47,8 @@ export default function Projects() {
       </div>
       <div className={styles.content}>
         {filteredProjects.map((p) => (
-          <div className={styles.button}>
+          <div key={p.route} className={styles.button}>
             <ProjectButton
-              key={p.route}
               title={t(p.titleKey)}
               year={t(p.yearKey)}
               image={p.image}

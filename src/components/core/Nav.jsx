@@ -12,23 +12,12 @@ export default function Nav() {
   const handleLinkClick = () => {
     setIsOpen(false);
   };
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
-
-  useEffect(() => {
-    const handleResize = () => setIsSmallScreen(window.innerWidth < 768);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   return (
     <div className={styles.header}>
       <div className={styles.about}>
-        <p className={styles.name}>
-          {isSmallScreen ? "Albert" : "Albert Medina Cucurull"}
-        </p>
-        <p className={styles.role}>
-          {isSmallScreen ? t("nav.headline-short") : t("nav.headline")}
-        </p>
+        <p className={styles.name}>Albert Medina Cucurull</p>
+        <p className={styles.role}>{t("nav.headline")}</p>
       </div>
 
       <button

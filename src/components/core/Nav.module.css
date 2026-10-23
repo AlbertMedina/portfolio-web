@@ -101,7 +101,7 @@
 
 @media (max-width: 768px) {
   .header {
-    height: 60px;
+    height: 75px;
     padding: 0 10px;
     gap: 10px;
   }
@@ -127,8 +127,8 @@
     position: fixed;
     width: 100%;
     height: auto;
-    top: 60px;
-    bottom: 60px;
+    top: 75px;
+    bottom: 75px;
     left: 0;
     flex-direction: column;
     justify-content: center;

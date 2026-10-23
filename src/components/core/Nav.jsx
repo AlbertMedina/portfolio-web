@@ -6,6 +6,13 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 import styles from "./Nav.module.css";
 
+const navLinks = [
+  { path: "/", label: "nav.home" },
+  { path: "/about", label: "nav.about" },
+  { path: "/projects", label: "nav.projects" },
+  { path: "/resume", label: "nav.resume" },
+];
+
 export default function Nav() {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -29,34 +36,16 @@ export default function Nav() {
       </button>
 
       <nav className={`${styles.navigation} ${isOpen ? styles.open : ""}`}>
-        <NavLink
-          to="/"
-          onClick={handleLinkClick}
-          className={({ isActive }) => (isActive ? styles.active : undefined)}
-        >
-          <span>{t("nav.home")}</span>
-        </NavLink>
-        <NavLink
-          to="/about"
-          onClick={handleLinkClick}
-          className={({ isActive }) => (isActive ? styles.active : undefined)}
-        >
-          <span>{t("nav.about")}</span>
-        </NavLink>
-        <NavLink
-          to="/projects"
-          onClick={handleLinkClick}
-          className={({ isActive }) => (isActive ? styles.active : undefined)}
-        >
-          <span>{t("nav.projects")}</span>
-        </NavLink>
-        <NavLink
-          to="/resume"
-          onClick={handleLinkClick}
-          className={({ isActive }) => (isActive ? styles.active : undefined)}
-        >
-          <span>{t("nav.resume")}</span>
-        </NavLink>
+        {navLinks.map(({ path, label }) => (
+          <NavLink
+            key={path}
+            to={path}
+            onClick={handleLinkClick}
+            className={({ isActive }) => (isActive ? styles.active : undefined)}
+          >
+            <span>{t(label)}</span>
+          </NavLink>
+        ))}
       </nav>
     </div>
   );

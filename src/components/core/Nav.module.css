@@ -4,7 +4,7 @@
   top: 0;
   box-sizing: border-box;
   width: 100%;
-  height: 75px;
+  height: 90px;
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
@@ -25,12 +25,13 @@
 }
 
 .name {
-  font-size: 24px;
   white-space: nowrap;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .role {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .navMenuToggle {
@@ -110,11 +111,11 @@
   }
 
   .name {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .role {
-    font-size: 8px;
+    font-size: 14px;
   }
 
   .navMenuToggle {

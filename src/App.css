@@ -10,8 +10,8 @@ body {
 .page-content {
   overflow-y: auto;
   position: absolute;
-  top: 75px;
-  bottom: 75px;
+  top: 90px;
+  bottom: 90px;
   left: 0;
   right: 0;
   padding: 30px;
@@ -19,8 +19,8 @@ body {
 
 @media (max-width: 768px) {
   .page-content {
-    top: 60px;
-    bottom: 60px;
+    top: 75px;
+    bottom: 75px;
     padding: 20px;
   }
 }
